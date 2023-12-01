@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ToryMetaTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 004030b62e92243979f5f6c64394e93a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 61445496832
+    m_Localized: Would you like to force the selected user to leave?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079744
+    m_Localized: Would you like to transfer the host authority to the selected user?
+      [Confirm] All the permission will be transferred.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079745
+    m_Localized: Would you like to restrict the selected user's chat privileges for
+      10 seconds?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079746
+    m_Localized: 'Would you like to send a warning to the selected user? Accumulating
+      3 warnings will result in ejection. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079747
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079748
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079749
+    m_Localized: '{0} has requested {1} for {2}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079750
+    m_Localized: '{0} has invited you to the chat room.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274048
+    m_Localized: Do you want to end the conversation and leave the chat room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274049
+    m_Localized: Would you like to join the selected chat room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274050
+    m_Localized: The network connection is not smooth. Please check the network connection
+      status and enter again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274051
+    m_Localized: '{0} has been ejected by the room host.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274052
+    m_Localized: You have been ejected from the chat room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274053
+    m_Localized: There are no users who can be invited.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274054
+    m_Localized: The chat room has been opened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274055
+    m_Localized: You have failed to create a chat room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274056
+    m_Localized: You have failed to enter the chat room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274057
+    m_Localized: The session has ended.\nPlease enter the Tory lounge again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274058
+    m_Localized: CAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274059
+    m_Localized: HONAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274060
+    m_Localized: SMOONU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274061
+    m_Localized: KKU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274062
+    m_Localized: 'Seminar Room '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274063
+    m_Localized: Tory Lounge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274064
+    m_Localized: '{0} has been ejected from the chat room with 3 warnings.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274065
+    m_Localized: '{0} has {1} warnings. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274066
+    m_Localized: '{0}''s chat will be restricted for 10 seconds.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274067
+    m_Localized: Chat Lounge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274068
+    m_Localized: The chat room usage restriction for {0} has been lifted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274069
+    m_Localized: '{0} has become the new room host.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274070
+    m_Localized: You failed to enter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27748247527424
+    m_Localized: Would you like to leave the seminar room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830576175702016
+    m_Localized: The seminar is in progress. Would you like to leave the seminar
+      room?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830854300000256
+    m_Localized: Would you like to move to the Tory Lounge?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830912202366976
+    m_Localized: Would you like to move to the ToryMeta Main page?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836241539555328
+    m_Localized: '{0} has requested {1} for Warning.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836360225775616
+    m_Localized: '{0} has requested {1} for Silence.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848454845292544
+    m_Localized: You have been ejected from the chat room with 3 warnings.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

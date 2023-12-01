@@ -1,0 +1,1004 @@
+[06/25/23 13:43:32:559][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 10
+[06/25/23 13:43:32:559][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:32:559][139554][A]:(00000381): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 10)
+[06/25/23 13:43:32:559][139554][A]:(00000383): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 10)
+[06/25/23 13:43:32:559][139518][A]:(00000382): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:32:958][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 10.130000, width 640
+[06/25/23 13:43:32:958][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 11
+[06/25/23 13:43:32:958][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:32:958][139554][A]:(00000384): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 11)
+[06/25/23 13:43:32:958][139518][A]:(00000385): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:32:958][139554][A]:(00000386): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 11)
+[06/25/23 13:43:33:292][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 11.430001, width 640
+[06/25/23 13:43:33:292][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 12
+[06/25/23 13:43:33:292][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:33:292][139554][A]:(00000387): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 12)
+[06/25/23 13:43:33:292][139554][A]:(00000389): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 12)
+[06/25/23 13:43:33:292][139518][A]:(00000388): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:33:329][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:43:33:624][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 12.430001, width 640
+[06/25/23 13:43:33:624][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 13
+[06/25/23 13:43:33:624][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:33:624][139554][A]:(00000390): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 13)
+[06/25/23 13:43:33:624][139554][A]:(00000391): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 13)
+[06/25/23 13:43:33:624][139518][A]:(00000392): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:33:892][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 13.430001, width 640
+[06/25/23 13:43:33:892][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 14
+[06/25/23 13:43:33:892][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:33:892][139554][A]:(00000393): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 14)
+[06/25/23 13:43:33:892][139554][A]:(00000395): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 14)
+[06/25/23 13:43:33:892][139518][A]:(00000394): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:34:158][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 14.430001, width 640
+[06/25/23 13:43:34:158][139554][I]:(video_stream_encoder.cc:375): Adjust framerate to: 15
+[06/25/23 13:43:34:158][139554][I]:(video_stream_encoder.cc:376): Adjust resolution, max pixels: 2147483647
+[06/25/23 13:43:34:158][139554][A]:(00000396): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe9c80, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 15)
+[06/25/23 13:43:34:158][139518][A]:(00000397): VideoModuleSourceCamera::onVideoQualityParamsChanged(this:0x17ff55590, void)
+[06/25/23 13:43:34:158][139554][A]:(00000398): VideoFrameWatermarker::onSinkWantsChanged(this:0x17ffe88a0, rotation_applied:0, black_frames: 0, max_pixel_count: 2147483647, target_pixel_count: 0, max_framerate_fps: 15)
+[06/25/23 13:43:34:356][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:34:424][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:34:691][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:34:958][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:35:82][139511][I]:[RS]: **report stats: seq: 33, report list size 0, tx/rx: 7542/1584, cache size: 0
+[06/25/23 13:43:35:224][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:35:492][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:35:757][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:36:24][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:36:290][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:36:318][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 59255402, inter_var 442595, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:43:36:558][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:36:823][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:37:92][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:37:357][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:37:362][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:37:623][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:37:890][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:38:156][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:38:423][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:38:690][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:38:956][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:39:223][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:39:489][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:39:756][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:40:22][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:40:288][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:40:420][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:40:555][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:40:823][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:41:88][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:41:355][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:41:622][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:41:888][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:42:155][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:42:318][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 49, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:43:42:421][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:42:689][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:42:954][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:43:221][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:43:286][138922][I]:VAdapt(0x17ffd2ab0[REG]) in:181(640x480) out:181(640x360) cropped:640x360 scaled:1 changes:0 ts:11681012interv:66666666 decimator:15|15.00|15
+[06/25/23 13:43:43:486][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:43:487][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:43:686][139548][I]:VAdapt(0x17ffe9af0frame) in:187(640x360) out:181(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668223686interv:66666666 decimator:15|15.00|15
+[06/25/23 13:43:43:754][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:44:21][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:44:288][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:44:554][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:44:821][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:45:87][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:45:329][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:43:45:354][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:45:620][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:45:887][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:46:154][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:46:420][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:46:551][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:46:686][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:46:954][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:47:219][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:47:486][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:47:753][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:48:20][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:48:171][139556][I]:[ATW]: Audio statistics - play count: playout count = 1800 signal level: far_in = 0
+[06/25/23 13:43:48:285][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:48:295][139557][I]:[ATW]: Audio statistics - rec count: record count = 1800 signal level: near_in = 71, near_out = 60
+[06/25/23 13:43:48:318][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 51, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:43:48:552][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:48:818][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:49:85][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:49:352][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:49:616][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:49:618][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:49:884][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:50:151][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:50:203][139527][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 228
+[06/25/23 13:43:50:203][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 0
+[06/25/23 13:43:50:418][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:50:684][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:50:951][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:51:217][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:51:485][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:51:752][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:52:17][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:52:284][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:52:551][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:52:683][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:52:817][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:53:84][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:53:351][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:53:617][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:53:884][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:54:151][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:54:318][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 60, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:43:54:417][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:54:684][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:54:949][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:55:216][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:55:280][138928][I]:VAdapt(0x17ffd2ab0[REG]) in:361(640x480) out:361(640x360) cropped:640x360 scaled:1 changes:0 ts:11693007interv:66666666 decimator:15|15.00|15
+[06/25/23 13:43:55:482][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:55:681][139548][I]:VAdapt(0x17ffe9af0frame) in:367(640x360) out:361(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668235681interv:66666666 decimator:15|15.00|15
+[06/25/23 13:43:55:747][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:55:748][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:56:16][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:56:282][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:56:550][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:56:815][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:57:82][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:57:328][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:43:57:348][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:57:615][139554][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:57:881][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:58:148][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:58:414][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:58:681][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:58:813][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:43:58:948][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:59:214][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:59:482][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:43:59:748][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:00:15][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:00:204][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 190
+[06/25/23 13:44:00:204][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:44:00:280][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:00:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 58, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:00:549][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:00:814][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:01:80][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:01:350][139554][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:01:614][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:01:878][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:01:880][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:02:146][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:02:413][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:02:679][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:02:947][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:03:212][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:03:479][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:03:746][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:04:13][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:04:186][139511][I]:**CALL STATS: duration 31s cpu app/total 20.97/50.95 battery 100 tx/rx: 490/24 kbps 1.877M/152.408K bytes
+[06/25/23 13:44:04:279][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:04:546][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:04:812][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:04:944][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:05:79][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:05:345][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:05:611][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:05:877][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:06:146][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:06:171][139556][I]:[ATW]: Audio statistics - play count: playout count = 3600 signal level: far_in = 0
+[06/25/23 13:44:06:295][139557][I]:[ATW]: Audio statistics - rec count: record count = 3600 signal level: near_in = 72, near_out = 61
+[06/25/23 13:44:06:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 51, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:06:413][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:06:677][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:06:945][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:07:211][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:07:276][138928][I]:VAdapt(0x17ffd2ab0[REG]) in:541(640x480) out:541(640x360) cropped:640x360 scaled:1 changes:0 ts:11705003interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:07:478][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:07:676][139548][I]:VAdapt(0x17ffe9af0frame) in:547(640x360) out:541(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668247675interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:07:744][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:08:9][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:08:10][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:08:277][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:08:544][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:08:810][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:09:77][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:09:328][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:44:09:344][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:09:610][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:09:876][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:10:143][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:10:204][139527][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 226
+[06/25/23 13:44:10:204][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 0
+[06/25/23 13:44:10:410][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:10:675][139554][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:10:943][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:11:74][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:11:82][139511][I]:[RS]: **report stats: seq: 69, report list size 0, tx/rx: 25700/3312, cache size: 0
+[06/25/23 13:44:11:209][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:11:476][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:11:742][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:12:9][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:12:276][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:12:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 42, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:12:542][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:12:809][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:13:74][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:13:341][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:13:607][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:13:875][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:14:139][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:14:141][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:14:408][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:14:674][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:14:940][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:15:207][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:15:474][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:15:741][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:16:7][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:16:273][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:16:540][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:16:807][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:17:73][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:17:205][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:17:340][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:17:607][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:17:873][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:18:140][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:18:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 43, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:18:406][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:18:672][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:18:940][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:19:205][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:19:271][138908][I]:VAdapt(0x17ffd2ab0[REG]) in:721(640x480) out:721(640x360) cropped:640x360 scaled:1 changes:0 ts:11716998interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:19:472][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:19:671][139548][I]:VAdapt(0x17ffe9af0frame) in:727(640x360) out:721(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668259670interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:19:738][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:20:6][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:20:204][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 194
+[06/25/23 13:44:20:205][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:44:20:271][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:20:272][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:20:540][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:20:812][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:21:73][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:21:328][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:44:21:338][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:21:605][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:21:872][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:22:138][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:22:403][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:22:670][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:22:937][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:23:203][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:23:335][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:23:471][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:23:737][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:24:3][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:24:170][139556][I]:[ATW]: Audio statistics - play count: playout count = 5400 signal level: far_in = 0
+[06/25/23 13:44:24:280][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:24:294][139557][I]:[ATW]: Audio statistics - rec count: record count = 5400 signal level: near_in = 72, near_out = 62
+[06/25/23 13:44:24:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 55, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:24:537][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:24:803][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:25:70][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:25:336][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:25:604][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:25:870][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:26:136][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:26:336][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:26:402][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:26:669][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:26:938][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:27:203][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:27:468][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:27:740][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:28:4][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:28:270][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:28:536][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:28:802][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:29:69][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:29:336][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:29:400][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:29:603][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:29:868][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:30:137][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:30:205][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 252
+[06/25/23 13:44:30:205][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:44:30:269][139554][I]:(video_stream_encoder.cc:1144): Number of frames: captured 880, dropped (due to encoder blocked) 0, interval_ms 60000
+[06/25/23 13:44:30:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 55, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:30:404][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:30:668][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:30:937][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:31:202][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:31:266][138928][I]:VAdapt(0x17ffd2ab0[REG]) in:901(640x480) out:901(640x360) cropped:640x360 scaled:1 changes:0 ts:11728993interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:31:468][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:31:666][139548][I]:VAdapt(0x17ffe9af0frame) in:907(640x360) out:901(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668271665interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:31:734][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:32:0][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:32:268][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:32:465][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:32:533][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:32:802][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:33:66][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:33:328][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:44:33:333][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:33:599][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:33:866][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:34:132][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:34:399][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:34:666][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:34:932][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:35:198][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:35:465][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:35:530][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:35:731][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:35:999][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:36:186][139511][I]:**CALL STATS: duration 1m3s cpu app/total 21.33/97.61 battery 100 tx/rx: 485/23 kbps 3.728M/246.457K bytes
+[06/25/23 13:44:36:266][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:36:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 57, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:36:535][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:36:799][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:37:65][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:37:332][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:37:600][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:37:865][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:38:132][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:38:398][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:38:596][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:38:665][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:38:930][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:39:197][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:39:464][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:39:730][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:39:997][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:40:206][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 216
+[06/25/23 13:44:40:206][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:44:40:265][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:40:531][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:40:797][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:41:63][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:41:330][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:41:598][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:41:661][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:41:862][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:42:130][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:42:170][139556][I]:[ATW]: Audio statistics - play count: playout count = 7200 signal level: far_in = 0
+[06/25/23 13:44:42:294][139557][I]:[ATW]: Audio statistics - rec count: record count = 7200 signal level: near_in = 72, near_out = 64
+[06/25/23 13:44:42:317][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 53, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:42:395][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:42:663][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:42:929][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:43:196][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:43:261][138908][I]:VAdapt(0x17ffd2ab0[REG]) in:1081(640x480) out:1081(640x360) cropped:640x360 scaled:1 changes:0 ts:11740989interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:43:463][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:43:661][139548][I]:VAdapt(0x17ffe9af0frame) in:1087(640x360) out:1081(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668283661interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:43:729][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:43:995][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:44:263][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:44:528][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:44:727][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:44:795][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:45:62][139554][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:45:327][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:44:45:328][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:45:484][139511][I]:[501117887886858542|remote:129.******.119:8130] Probe MTU to remote finished. Current MTU: 1450 Target MTU: 1450
+[06/25/23 13:44:45:595][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:45:861][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:46:128][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:46:394][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:46:661][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:46:928][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:47:81][139511][I]:[RS]: **report stats: seq: 103, report list size 0, tx/rx: 42494/4944, cache size: 0
+[06/25/23 13:44:47:194][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:47:460][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:47:727][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:47:792][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:47:994][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:48:260][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:48:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 54, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:48:527][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:48:794][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:49:59][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:49:327][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:49:593][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:49:860][139554][I]:[VQC DEBUG] qp avg is27.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:50:126][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:50:186][139511][I]:create session builder 0x1368c0a00
+[06/25/23 13:44:50:186][139511][I]:[501117887886858542|remote:129.******.119:8130] destroy session 0x310e6ec00
+[06/25/23 13:44:50:186][139511][I]:[501117887886858542|remote:129.******.119:8130] start last ack, duration: 2000 ms
+[06/25/23 13:44:50:186][139511][I]:destroy session builder 0x135da8e00
+[06/25/23 13:44:50:186][139511][I]:[501117887886858542|remote:129.******.119:8130] destroy connection 0x310e6e600
+[06/25/23 13:44:50:186][139511][I]:[501117887886858542|remote:129.******.119:8130] destroy path 0x310e75600
+[06/25/23 13:44:50:186][139511][I]:create dangling client connection 0x310ec2e00
+[06/25/23 13:44:50:187][139511][I]:[remote:103.******.154:8130] start 0th connect, send client hello 4320333|syn, early data: 0, tags: SNI :3130332d3635...(27), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:fa110cc04c5f...(32), CID: 8642597500571493530
+[06/25/23 13:44:50:207][139527][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 237
+[06/25/23 13:44:50:207][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 0
+[06/25/23 13:44:50:283][139511][I]:[remote:103.******.154:8130] receive server hello piece id: 0, 1/1, complete
+[06/25/23 13:44:50:284][139511][I]:[TM]: Evaluate cert chain size 3
+[06/25/23 13:44:50:284][139511][I]:[TM]: Add cert to cert store
+[06/25/23 13:44:50:284][139511][I]:[TM]: Add root certs to cert store
+[06/25/23 13:44:50:284][139511][I]:[TM]: Begin verify leaf cert
+[06/25/23 13:44:50:284][139511][I]:[TM]: End verify leaf cert, ret succ
+[06/25/23 13:44:50:285][139511][I]:[remote:103.******.154:8130] current in 0th connect, send client response 4320333|ack:8438671, early data: 0, tags: , CID: 8642597500571493530
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] set loss detection type: AdaptiveSequence
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] create path 0x13880b000, self initial seq: 4320334, peer initial seq: 8438672, local public address: 0, initial rtt: 98ms, version: Unknown, forged protocol: 0, connection_id: 8642597500571493530, path_id: null, cc: BBRv1, pacing: true
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] [8642597500571493530|remote:103.******.154:8130] 11748012 switch best path to [8642597500571493530|remote:103.******.154:8130] , predict transfer time: 98ms, rtt : 98ms, loss 0
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] create connection 0x1388cbe00, self initial seq: 4320334, peer initial seq: 8438672, initial rtt: 98ms, version: Unknown, connection_id: 8642597500571493530, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/25/23 13:44:50:285][139511][I]:[8642597500571493530|remote:103.******.154:8130] create session 0x1388cc400
+[06/25/23 13:44:50:285][139511][I]:[rs] link aut to 103.******.154:8130 connected
+[06/25/23 13:44:50:285][139511][I]:destroy dangling client connection 0x310ec2e00
+[06/25/23 13:44:50:393][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:50:660][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:50:857][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:50:926][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:51:192][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:51:458][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:51:726][139554][I]:[VQC DEBUG] qp avg is27.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:51:993][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:52:258][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:52:525][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:52:791][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:53:58][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:53:325][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:53:591][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:53:859][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:53:923][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:54:124][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:54:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 43, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:44:54:390][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:54:657][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:54:924][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:55:191][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:55:255][138925][I]:VAdapt(0x17ffd2ab0[REG]) in:1261(640x480) out:1261(640x360) cropped:640x360 scaled:1 changes:0 ts:11752983interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:55:457][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:55:655][139548][I]:VAdapt(0x17ffe9af0frame) in:1267(640x360) out:1261(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668295655interv:66666666 decimator:15|15.00|15
+[06/25/23 13:44:55:723][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:55:990][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:56:257][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:56:523][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:56:789][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:56:987][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:44:57:56][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:57:322][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:57:327][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:44:57:589][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:57:856][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:58:122][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:58:389][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:58:656][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:58:923][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:59:189][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:59:456][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:59:722][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:44:59:988][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:00:54][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:00:170][139556][I]:[ATW]: Audio statistics - play count: playout count = 9000 signal level: far_in = 0
+[06/25/23 13:45:00:207][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 280
+[06/25/23 13:45:00:207][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:45:00:255][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:00:294][139557][I]:[ATW]: Audio statistics - rec count: record count = 9000 signal level: near_in = 77, near_out = 79
+[06/25/23 13:45:00:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 47, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:00:522][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:00:788][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:01:55][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:01:321][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:01:588][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:01:854][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:02:122][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:02:388][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:02:655][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:02:921][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:03:120][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:03:188][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:03:454][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:03:721][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:03:988][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:04:253][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:04:520][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:04:787][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:05:53][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:05:319][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:05:586][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:05:852][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:06:120][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:06:185][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:06:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 51, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:06:386][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:06:653][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:06:918][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:07:186][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:07:250][138922][I]:VAdapt(0x17ffd2ab0[REG]) in:1441(640x480) out:1441(640x360) cropped:640x360 scaled:1 changes:0 ts:11764978interv:66666666 decimator:15|15.00|15
+[06/25/23 13:45:07:452][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:07:650][139548][I]:VAdapt(0x17ffe9af0frame) in:1447(640x360) out:1441(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668307650interv:66666666 decimator:15|15.00|15
+[06/25/23 13:45:07:718][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:07:986][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:08:185][139511][I]:**CALL STATS: duration 1m35s cpu app/total 20.2/74.46 battery 100 tx/rx: 486/22 kbps 5.589M/343.555K bytes
+[06/25/23 13:45:08:251][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:08:525][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:08:785][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:09:51][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:09:250][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:09:317][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:09:327][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:45:09:585][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:09:853][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:10:118][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:10:208][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 501
+[06/25/23 13:45:10:208][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 0
+[06/25/23 13:45:10:383][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:10:651][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:10:917][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:11:184][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:11:450][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:11:719][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:11:984][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:12:251][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:12:315][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:12:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 51, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:12:517][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:12:783][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:13:50][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:13:319][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:13:583][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:13:850][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:14:118][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:14:383][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:14:649][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:14:915][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:15:182][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:15:380][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:15:449][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:15:715][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:15:983][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:16:248][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:16:515][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:16:782][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:17:49][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:17:314][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:17:581][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:17:848][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:18:115][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:18:169][139556][I]:[ATW]: Audio statistics - play count: playout count = 10800 signal level: far_in = 0
+[06/25/23 13:45:18:294][139557][I]:[ATW]: Audio statistics - rec count: record count = 10800 signal level: near_in = 72, near_out = 71
+[06/25/23 13:45:18:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 46, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:18:381][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:18:446][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:18:648][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:18:923][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:19:181][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:19:245][138925][I]:VAdapt(0x17ffd2ab0[REG]) in:1621(640x480) out:1621(640x360) cropped:640x360 scaled:1 changes:0 ts:11776974interv:66666666 decimator:15|15.00|15
+[06/25/23 13:45:19:448][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:19:646][139548][I]:VAdapt(0x17ffe9af0frame) in:1627(640x360) out:1621(640x360) cropped:640x360 scaled:1 changes:0 ts:1687668319646interv:66666666 decimator:15|15.00|15
+[06/25/23 13:45:19:716][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:19:981][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:20:208][139527][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 150
+[06/25/23 13:45:20:208][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 0
+[06/25/23 13:45:20:247][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:20:513][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:20:781][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:21:48][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:21:184][139511][I]:[RS]: **report stats: seq: 129, report list size 0, tx/rx: 53486/6192, cache size: 0
+[06/25/23 13:45:21:313][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:21:326][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:45:21:511][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:21:579][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:21:847][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:22:114][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:22:379][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:22:645][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:22:913][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:23:179][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:23:446][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:23:712][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:23:979][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:24:245][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:24:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 51, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:24:512][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:24:577][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:24:778][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:25:44][139554][I]:[VQC DEBUG] qp avg is28.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:25:311][139554][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:25:578][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:25:844][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:26:111][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:26:378][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:26:644][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:26:911][139554][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:27:178][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:27:444][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:27:642][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:27:710][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:27:978][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:28:243][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:28:510][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:28:776][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:29:43][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:29:309][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:29:577][139554][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:29:843][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:30:111][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:30:207][139527][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 205
+[06/25/23 13:45:30:207][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 0
+[06/25/23 13:45:30:309][139554][I]:(video_stream_encoder.cc:1144): Number of frames: captured 901, dropped (due to encoder blocked) 0, interval_ms 60000
+[06/25/23 13:45:30:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 46, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:30:377][139554][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:30:643][139554][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:30:707][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:30:909][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:31:178][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:31:443][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:31:710][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:31:976][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:32:245][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:32:512][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:32:776][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:33:42][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:33:309][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:33:326][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:45:33:576][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:33:772][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:33:842][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:34:110][139554][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:34:375][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:34:641][139554][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:34:908][139554][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:35:176][139554][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:35:442][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:35:707][139554][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:35:975][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:36:169][139556][I]:[ATW]: Audio statistics - play count: playout count = 12600 signal level: far_in = 0
+[06/25/23 13:45:36:240][139554][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:36:293][139557][I]:[ATW]: Audio statistics - rec count: record count = 12600 signal level: near_in = 73, near_out = 76
+[06/25/23 13:45:36:316][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 45, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:36:507][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:36:775][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:36:837][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:37:40][139554][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:37:312][139554][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/25/23 13:45:37:401][139511][I]:On received VIDEO_FEEDBACK_INTRA_REQUEST_QUICK uid 0.
+[06/25/23 13:45:37:401][139511][I]:On received intra request stream_type 0, isQuickIntraRequest 1
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter enable_hw_decoder : 
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter hardware_decoding : -1
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for enable_parser_reject
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for enable_hw_decoder
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for dec_mosreport
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for che.hardware_decoding
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[06/25/23 13:45:37:412][139511][I]:[VSM]: no TDS value found for packet_buffer_size
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for enable_vpr : true
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[06/25/23 13:45:37:412][139511][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[06/25/23 13:45:37:413][139511][W]:[diag] Receive debug enabled 1 from config service
+[06/25/23 13:45:37:413][139511][I]:on set parameters doc='{"che.audio.mute_peer":[627707058,false]}', ret=0
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter enable_hw_decoder : 
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter hardware_decoding : -1
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for enable_parser_reject
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for enable_hw_decoder
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for dec_mosreport
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for che.hardware_decoding
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[06/25/23 13:45:37:413][139511][I]:[VSM]: no TDS value found for packet_buffer_size
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for enable_vpr : true
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[06/25/23 13:45:37:413][139511][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[06/25/23 13:45:37:413][139511][W]:[diag] Receive debug enabled 1 from config service
+[06/25/23 13:45:37:413][139511][I]:on set parameters doc='{"rtc.video.mute_peer":[627707058,false]}', ret=0
+[06/25/23 13:45:37:413][139511][I]:[PEER] peer 627707058 is online
+[06/25/23 13:45:37:413][139511][I]:[LUR]: uid 627707058 is online
+[06/25/23 13:45:37:413][139511][I]:[SVC DEBUG] svc enable due to peer count:1, layers set to 1
+[06/25/23 13:45:37:413][139511][A]:(00000399): LegacyEventProxy::onUserJoined->onUserJoined(this:0x135650600, uid:"627707058", elapsed:127230)
+[06/25/23 13:45:37:413][139512][A]:(00000400): ChannelProxy::onUserJoined->onUserJoined(this:0x2f23267b0, userId:"627707058")
+[06/25/23 13:45:37:413][139511][I]:[PEER] onFilterBroadcastPacket do peer 627707058 online
+[06/25/23 13:45:37:413][139512][A]:(00000401): ChannelProxy::onAudioSubscribeStateChanged->onAudioSubscribeStateChanged(this:0x2f23267b0, channel:000000022, userId:627707058, oldState:0, newState:2, elapseSinceLastState:1)
+[06/25/23 13:45:37:413][139511][I]:[PEER] peer 627707058 has published audio
+[06/25/23 13:45:37:413][139512][A]:(00000402): ChannelProxy::onVideoSubscribeStateChanged->onVideoSubscribeStateChanged(this:0x2f23267b0, channel:000000022, userId:627707058, oldState:0, newState:2, elapseSinceLastState:1)
+[06/25/23 13:45:37:413][139512][A]:(00000403): ChannelProxy::onAudioSubscribeStateChanged->onAudioSubscribeStateChanged(this:0x2f23267b0, channel:000000022, userId:627707058, oldState:2, newState:3, elapseSinceLastState:0)
+[06/25/23 13:45:37:413][139511][I]:[ASM]: uid:627707058 mute:0 audio
+[06/25/23 13:45:37:414][139511][A]:(00000404): AudioStreamManager::onMuteRemoteAudio->onUserInfoUpdated(this:0x310d7dc00, userId:"627707058", msg:0, mute:0)
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 has enabled video
+[06/25/23 13:45:37:414][139511][I]:[VSM]: onEnableRemoteVideo (627707058, 1)
+[06/25/23 13:45:37:414][139511][A]:(00000405): VideoStreamManager::onEnableRemoteVideo->onUserInfoUpdated(this:0x2affdac00, uid:"627707058", msg:4, enable:1)
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 has enabled local video
+[06/25/23 13:45:37:414][139511][I]:[VSM]: onEnableRemoteLocalVideo (627707058, 1)
+[06/25/23 13:45:37:414][139511][A]:(00000406): VideoStreamManager::onEnableRemoteLocalVideo->onUserInfoUpdated(this:0x2affdac00, uid:"627707058", msg:8, enable:1)
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 has published video
+[06/25/23 13:45:37:414][139511][I]:[VSM]: onMuteRemoteVideo (627707058, 0)
+[06/25/23 13:45:37:414][139511][A]:(00000407): VideoStreamManager::onMuteRemoteVideo->onUserInfoUpdated(this:0x2affdac00, uid:"627707058", msg:1, mute:0)
+[06/25/23 13:45:37:414][139512][A]:(00000408): ChannelProxy::onUserInfoUpdated->onUserMuteAudio(this:0x2f23267b0, userId:"627707058", mute:0)
+[06/25/23 13:45:37:414][139511][I]:[8642597500571493530|remote:103.******.154:8130] SetFromConfig congestion_feedback_interval:200, update_stats_interval:500, low_resolution_timer_interval:200, 
+[06/25/23 13:45:37:414][139512][A]:(00000409): ChannelProxy::onUserInfoUpdated->onUserEnableVideo(this:0x2f23267b0, userId:"627707058", enable:1)
+[06/25/23 13:45:37:414][139512][A]:(00000410): ChannelProxy::onUserInfoUpdated->onUserEnableLocalVideo(this:0x2f23267b0, userId:"627707058", enable:1)
+[06/25/23 13:45:37:414][139512][A]:(00000411): ChannelProxy::onUserInfoUpdated->onUserMuteVideo(this:0x2f23267b0, userId:"627707058", mute:0)
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 has enabled audio
+[06/25/23 13:45:37:414][139512][A]:(00000412): ChannelProxy::onVideoSubscribeStateChanged->onVideoSubscribeStateChanged(this:0x2f23267b0, channel:000000022, userId:627707058, oldState:2, newState:3, elapseSinceLastState:1)
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 has enabled local audio
+[06/25/23 13:45:37:414][139511][I]:[PEER] peer 627707058 background state sdkInBackground[0] sdkBackgroundWithoutCapturing[0]
+[06/25/23 13:45:37:415][139512][A]:(00000413): ChannelProxy::onUserStateChanged->onUserStateChanged(this:0x2f23267b0, userId:"627707058", state:2684372784)
+[06/25/23 13:45:37:422][139511][I]:[[VMT]] set retrys: 8(streamId: 7, type: 3)
+[06/25/23 13:45:37:422][139511][I]:[PEER] onTracerFirstRemoteVideo uid 627707058 codec 2 lapse 127239 firstFrameType 2
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter enable_hw_decoder : 
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter hardware_decoding : -1
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for enable_parser_reject
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for enable_hw_decoder
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for dec_mosreport
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for che.hardware_decoding
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[06/25/23 13:45:37:423][139511][I]:[VSM]: no TDS value found for packet_buffer_size
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for enable_vpr : true
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[06/25/23 13:45:37:423][139511][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[06/25/23 13:45:37:423][139511][I]:[VSM]: of uid 627707058 ssrc 752409810 track 0x2bbf2a200 is created.
+[06/25/23 13:45:37:423][139511][I]:[VSM]: add rw video observer proxy for track: 0x2bbf2a200, observer: 0x2bf4cd9f0, uid: 627707058
+[06/25/23 13:45:37:423][139511][A]:(00000414): VideoFrameRotator::setOutputRotation(this:0x31b41c3a0, rotation:0)
+[06/25/23 13:45:37:423][139511][A]:(00000415): RemoteVideoTrackImpl::addVideoFilter(this:0x2bbf2a200, filter:0x1364df390)
+[06/25/23 13:45:37:423][139511][I]:[RVT]: Add video filter 0x1364df390
+[06/25/23 13:45:37:423][139511][I]:[VSM]: add video observer to track: 0x2bbf2a200, uid: 627707058, observer: 0x2bf4cd9f0, processMode: 1
+[06/25/23 13:45:37:423][139511][I]:[VSM]: set rw video observer 0x2bf4cd9f0 to track: 0x2bbf2a200, uid: 627707058
+[06/25/23 13:45:37:423][139511][A]:(00000416): RemoteVideoTrackImpl::addVideoFilter(this:0x2bbf2a200, filter:0x322df39e0)
+[06/25/23 13:45:37:423][139511][I]:[RVT]: Add video filter 0x322df39e0
+[06/25/23 13:45:37:423][141190][I]:[BW]: BaseWorker (AgRemoteVData) started: 0x327584f98
+[06/25/23 13:45:37:423][141189][I]:[BW]: BaseWorker (AgRemoteVCtrl) started: 0x2bb4d09f8
+[06/25/23 13:45:37:423][139511][I]:vpr init! config: method=0 init_num=1 max_num=3 frozen_ms_thres=200 frozen_rate_thres=5, vpr_adaptive_thres=50
+[06/25/23 13:45:37:423][139511][I]:Decoder use: swdec
+[06/25/23 13:45:37:423][139511][I]:(h264.cc:126): Creating H264DecoderImpl.
+[06/25/23 13:45:37:423][139511][I]:(h264_decoder_impl.cc:239): H264DecoderImpl
+[06/25/23 13:45:37:423][139511][I]:[VND]: Set cc type 3 for video receive stream
+
+[06/25/23 13:45:37:423][139511][I]:[VND]: no TDS value found for av_sync_max_fence
+[06/25/23 13:45:37:423][139511][I]:[VND]: no TDS value found for av_sync_pace_length_factor
+[06/25/23 13:45:37:423][139511][I]:[VND]: no TDS value found for av_sync_filter_length_
+[06/25/23 13:45:37:424][139511][I]:enable_reduced_delay 0
+[06/25/23 13:45:37:424][139511][I]:(video_receive_stream.cc:133): VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 107, payload_name: H264, codec_params: {}}], rtp: {remote_ssrc: 752409810, local_ssrc: 2993116990, rtcp_mode: RtcpMode::kCompound, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: on, nack: {rtp_history_ms: 0}, ulpfec_payload_type: 117, red_type: 116}, extensions: [{uri: urn:ietf:params:draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: urn:webrtc:experiments:rtp-hdrext:abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: agora-video-flag, id: 13}, {uri: agora-dmfec-media-seq, id: 11}, {uri: agora-video-meta-data, id: 14}, {uri: video-ref-frame-number, id: 10}, {uri: agora-video-metadata-end-to-end-time, id: 18}, {uri: agora-video-Bframe-info, id: 6}]}, renderer: (renderer), render_delay_ms: 0, sync_group: agora_avsync_627707058, target_delay_ms: 0}
+[06/25/23 13:45:37:424][139511][I]:enable_reduced_delay 0
+[06/25/23 13:45:37:426][139511][I]:(call.cc:1360): UpdateAggregateNetworkState: aggregate_state=up
+[06/25/23 13:45:37:426][139511][I]:(send_side_congestion_controller.cc:581): SignalNetworkState Up
+[06/25/23 13:45:37:426][139511][I]:(video_smooth_render_frames.cc:32): SmoothRender Reset enable vpr=1
+[06/25/23 13:45:37:426][139511][A]:(00000417): VideoStreamManager::onRemoteVideoStateChanged->onUserVideoTrackStateChanged(this:0x2affdac00, userId:627707058, track:0x2bbf2a200, state:1, reason:6, elapsed:127243)
+[06/25/23 13:45:37:427][139511][A]:(00000418): VideoStreamManager::createNewVideoTrackIfNeeded->onUserVideoTrackSubscribed(this:0x2affdac00, userId:"627707058", VideoTrackInfo(ownerUid:627707058, channelId:000000022, streamType:0, codecType:2, encodedFrameOnly:0), remoteTrack:0x2bbf2a200)
+[06/25/23 13:45:37:427][139511][A]:(00000419): RemoteVideoTrackImpl::deliverPacket(this:0x2bbf2a200, void)
+[06/25/23 13:45:37:427][139511][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 752409810 with payload type: 107, timestamp: 3155239620, sequence number: 26942, arrival time: 11795155
+[06/25/23 13:45:37:427][139511][I]:RemoteNetworkStatistic: update parameters retrans_detect_enable 0, use_sent_ts_enable 1
+[06/25/23 13:45:37:427][139511][I]:(rtp_video_stream_receiver.cc:986): Found out of band supplied codec parameters for payload type: 107
+[06/25/23 13:45:37:427][139512][A]:(00000420): ChannelProxy::notifyRemoteVideoStateChanged->onRemoteVideoStateChanged(this:0x2f23267b0, userId:"627707058", state:1, reason:6)
+[06/25/23 13:45:37:428][139511][A]:(00000421): MediaNodeFactoryImpl::createVideoRenderer(this:0x1364fe0c0, void)
+[06/25/23 13:45:37:428][139516][I]:[VRW]: constructor
+[06/25/23 13:45:37:428][139511][A]:(00000422): RemoteVideoTrackImpl::addRenderer(this:0x2bbf2a200, videoRenderer:0x2f2334a10)
+[06/25/23 13:45:37:428][139511][A]:(00000423):   VideoFrameRotator::setOutputFormat(this:0x13fb18250, format:(width:640, height:360, fps:15, fixed:1))
+[06/25/23 13:45:37:428][139511][I]:[RVTM] add remote video track 0x2bbf2a200 for uid: 627707058
+[06/25/23 13:45:37:428][139511][A]:(00000424): RemoteVideoTrackImpl::deliverPacket(this:0x2bbf2a200, void)
+[06/25/23 13:45:37:428][139511][A]:(00000425): RemoteVideoTrackImpl::deliverPacket(this:0x2bbf2a200, void)
+[06/25/23 13:45:37:428][139550][I]:[VRW]: constructor done
+[06/25/23 13:45:37:447][139554][E]:(parser_h264.cc:3111): Idr miss, internal frn wrap around, reset. prevfrn (1886)cfrn (0)maxfrn (32768)
+[06/25/23 13:45:37:447][139554][I]:key frame codecType =3, frame_num = 1889 , frame_type = 3 , width = 640 , heght = 360 
+
+[06/25/23 13:45:37:455][139511][I]:[PEER] onTracerFirstRemoteAudio uid 627707058 codec 85 lapse 127272
+[06/25/23 13:45:37:455][139511][W]:[ASM]: audio downlink resend 1
+[06/25/23 13:45:37:455][139511][A]:(00000426): RemoteAudioTrackImpl::setRemoteAudioTrackStatisticsHelper(this:0x321eb3e70, helper: 0x1364f2810)
+[06/25/23 13:45:37:455][139511][A]:(00000427): RemoteAudioTrackImpl::attach(this:0x321eb3e70, local_ssrc: 2783634174, remote_ssrc: 1155384323, codec: 85)
+[06/25/23 13:45:37:455][139511][I]:[RAT]: Start building remote audio track,local_ssrc:0, remote_ssrc:1155384323, codec:85, sync_group:agora_avsync_627707058
+[06/25/23 13:45:37:455][139511][I]:audio options factoryname ==default: vector===5
+[06/25/23 13:45:37:455][139511][W]:[AOF]: enable preferred aec delay: 1
+[06/25/23 13:45:37:455][139511][I]:[AOF]: enable_aec: 1, enable_agc: 1, enable_ns: 1, enable_md: 0
+[06/25/23 13:45:37:455][139511][I]:[AOF]: mic selection: 0
+[06/25/23 13:45:37:455][139511][I]:(audio_transport_impl.cc:337): EnableMicSelection enable = 0.
+[06/25/23 13:45:37:456][139511][W]:(neteq_impl.cc:152): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, max_delay_ms=2000, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, target_level_optimization=false, aqm_voice_threshold=10, max_target_delay_ms=0, limit_probability=95, lower_limit_probability=97, filter_target_loss=6, max_filter_window=0, enable_expired_peak_dector=0, max_exceed_time_ms=500, max_filter_dup_num=3, neteq_version=M78, enable_voice_volume_level=0, enable_individuality_delay=0, enable_improve_burst=0, prebuffer=0, prebuffer_max_delay=0, plc_mode=0
+[06/25/23 13:45:37:456][139511][I]:(delay_manager.cc:723): target_delay_ms 0
+[06/25/23 13:45:37:456][139511][W]:(delay_manager.cc:734): limit_probability 95
+[06/25/23 13:45:37:456][139511][W]:(delay_manager.cc:745): lower_limit_probability 97
+[06/25/23 13:45:37:456][139511][I]:(delay_manager.cc:839):  enable_improve_burst:0 low_latency_burst_control_window_ms:90000 low_latency_burst_control_platform_ms:60000 low_latency_burst_peak_num_threshold:2 low_latency_burst_trend_threshold:0.003 low_latency_burst_peak_trend_increased_threshold:0.002 low_latency_burst_overuse_limited_quantile:0.98 low_latency_burst_comb_window_second:300 low_latency_burst_max_jitter_limit_ms:2000 high_latency_burst_control_window_ms:180000 high_latency_burst_control_platform_ms:120000 high_latency_burst_peak_num_threshold:2 high_latency_burst_trend_threshold:0.003 high_latency_burst_peak_trend_increased_threshold:0.002 high_latency_burst_overuse_limited_quantile:0.98 high_latency_burst_comb_window_second:360 high_latency_burst_max_jitter_limit_ms:2000
+[06/25/23 13:45:37:456][139511][I]:(audio_coding_module.cc:478): Created
+[06/25/23 13:45:37:456][139511][I]:(audio_receive_stream.cc:132): AudioReceiveStream: 1155384323
+[06/25/23 13:45:37:456][139511][I]:(audio_receive_stream.cc:440): AudioReceiveStream::ConfigureStream: {rtp: {remote_ssrc: 1155384323, local_ssrc: 0, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: []}, rtcp_send_transport: (Transport), sync_group: agora_avsync_627707058}
+[06/25/23 13:45:37:456][139511][I]:[AV DEBUG] StreamSynchronization Construct: max_fence_:300, pace_factor_:3, filter_length:2
+[06/25/23 13:45:37:456][139511][I]:(call.cc:1360): UpdateAggregateNetworkState: aggregate_state=up
+[06/25/23 13:45:37:456][139511][I]:(send_side_congestion_controller.cc:581): SignalNetworkState Up
+[06/25/23 13:45:37:456][139511][I]:[RAT]: receive stream 0x3275d15b0 has been created, ssrc 1155384323, uid 627707058, processor 0x2c574f568
+[06/25/23 13:45:37:456][139511][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[06/25/23 13:45:37:456][139511][I]:[AFC]: create extension audio filter, extension type:10002 extension_list size:2
+[06/25/23 13:45:37:456][139511][I]:[AFC]: create extension audio filter, extension type:10002 internal_id:agora.builtin%%sound_position_io_agora_builtin_remote_user_playback filter:sound_position_io_agora_builtin_remote_user_playback auto_enable:0
+[06/25/23 13:45:37:456][139511][I]:[RAT]: to be added audio filter position:2, filter:sound_position_io_agora_builtin_remote_user_playback
+[06/25/23 13:45:37:456][139511][A]:(00000428):   IAudioFilterComposite::addAudioFilter(this:0x32755b490, filter: 0x32752e480)
+[06/25/23 13:45:37:456][139511][A]:(00000429):   RemoteAudioTrackImpl::addAudioFilter(this:0x321eb3e70, filter: 0x32752e480, position: 2)
+[06/25/23 13:45:37:456][139511][I]:[Extension]: SpatialAudioProvider::createAudioFilter will create filter:spatial_audio_io_agora_remote_user_playback
+[06/25/23 13:45:37:456][139511][I]:[AFC]: create extension audio filter, extension type:10002 internal_id:agora_audio_filters_spatial_audio%%spatial_audio_io_agora_remote_user_playback filter:spatial_audio_io_agora_remote_user_playback auto_enable:0
+[06/25/23 13:45:37:456][139511][I]:[RAT]: to be added audio filter position:2, filter:spatial_audio_io_agora_remote_user_playback
+[06/25/23 13:45:37:456][139511][A]:(00000430):   IAudioFilterComposite::addAudioFilter(this:0x32755b490, filter: 0x32756aed0)
+[06/25/23 13:45:37:456][139511][A]:(00000431):   RemoteAudioTrackImpl::addAudioFilter(this:0x321eb3e70, filter: 0x32756aed0, position: 2)
+[06/25/23 13:45:37:456][139511][I]:[audio] RemoteAudioTrackImpl::attach: remote track attached
+
+[06/25/23 13:45:37:456][139511][I]:[ASM]: of uid 627707058 ssrc 1155384323 track 0x321eb3e70 is created by local user.
+[06/25/23 13:45:37:456][139511][A]:(00000432): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:37:456][139511][A]:(00000433):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:37:456][139511][I]:[ASM]: configAudioMixerIfNeeded: 3, 0
+[06/25/23 13:45:37:456][139511][W]:(audio_mixer_impl.cc:85): SetMaxMixerNumber: SetMaxMixerNumber: 3, 3
+[06/25/23 13:45:37:456][139511][I]:audio options factoryname ==default: vector===5
+[06/25/23 13:45:37:456][139511][W]:[AOF]: enable preferred aec delay: 1
+[06/25/23 13:45:37:456][139511][I]:[AOF]: enable_aec: 1, enable_agc: 1, enable_ns: 1, enable_md: 0
+[06/25/23 13:45:37:456][139511][I]:[AOF]: mic selection: 0
+[06/25/23 13:45:37:456][139511][I]:(audio_transport_impl.cc:337): EnableMicSelection enable = 0.
+[06/25/23 13:45:37:456][139511][A]:(00000434): AudioStreamManager::createAndAttachRemoteAudioTrack->onUserAudioTrackSubscribed(this:0x310d7dc00, userId:"627707058", track:0x321eb3e70)
+[06/25/23 13:45:37:456][139511][A]:(00000435): RemoteAudioTrackImpl::deliverPacket(this:0x321eb3e70, void)
+[06/25/23 13:45:37:456][139511][A]:(00000436): RemoteVideoTrackImpl::deliverPacket(this:0x2bbf2a200, ... (ignore to avoid too many logs))
+[06/25/23 13:45:37:456][139511][A]:(00000437): RemoteAudioTrackImpl::deliverPacket(this:0x321eb3e70, void)
+[06/25/23 13:45:37:469][139556][A]:(00000438): RemoteAudioTrackImpl::onFirstFrameDecoded(this:0x321eb3e70, void)
+[06/25/23 13:45:37:469][139556][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:32000 dst_sample_rate_hz:8000
+[06/25/23 13:45:37:469][139556][I]:AEC_Config, filter type = 0, tail length = 48, route = 0, aggressive = 1
+[06/25/23 13:45:37:469][139556][I]:AEC_Config, nlp type = 0, size = 128, latency = 8
+[06/25/23 13:45:37:469][139556][I]:ains extension not enable
+[06/25/23 13:45:37:469][139556][I]:ains factory is nullptr
+[06/25/23 13:45:37:469][139556][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[06/25/23 13:45:37:469][139556][E]:(push_resampler.cc:103): InitializeIfNeeded: resampler is not using fixed ratio and src_sample_rate_hz:32000 dst_sample_rate_hz:44100
+[06/25/23 13:45:37:474][139511][A]:(00000439): RemoteAudioTrackImpl::deliverPacket(this:0x321eb3e70, void)
+[06/25/23 13:45:37:494][139511][A]:(00000440): RemoteAudioTrackImpl::deliverPacket(this:0x321eb3e70, ... (ignore to avoid too many logs))
+[06/25/23 13:45:37:515][139511][A]:(00000441): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioFrame(this:0x310d7dc00, userId:627707058, track: 0x321eb3e70, elapsed:127273)
+[06/25/23 13:45:37:515][139511][A]:(00000442): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x310d7dc00, userId:627707058, track:0x321eb3e70, state:1, reason:6, elapsed:127273)
+[06/25/23 13:45:37:515][139511][A]:(00000444): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioDecoded(this:0x310d7dc00, userId:627707058,  elapsed:127286)
+[06/25/23 13:45:37:515][139512][A]:(00000443): ChannelProxy::onFirstRemoteAudioFrame->onFirstRemoteAudioFrame(this:0x2f23267b0, userId:"627707058", elapsed:127273)
+[06/25/23 13:45:37:515][139511][A]:(00000445): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x310d7dc00, userId:627707058, track:0x321eb3e70, state:2, reason:6, elapsed:127286)
+[06/25/23 13:45:37:515][139512][A]:(00000446): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x2f23267b0, userId:"627707058", state:1, reason:6, elapsed:127273)
+[06/25/23 13:45:37:515][139511][I]:[ASM]: no publish stat message received from peer, postpone report first frame drawn event
+[06/25/23 13:45:37:515][139512][A]:(00000447): ChannelProxy::onFirstRemoteAudioDecoded->onFirstRemoteAudioDecoded(this:0x2f23267b0, userId:"627707058", elapsed:127286)
+[06/25/23 13:45:37:560][139551][I]:[VBC2]: create acc feedback uid: 627707058
+[06/25/23 13:45:37:560][139551][I]:[AgoraCC2.0] vos 0 SetBitrates min 57200, max 449200, start 224600
+[06/25/23 13:45:37:560][139551][I]:[PACER] Active Pacer to false
+[06/25/23 13:45:37:572][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:37:838][139554][I]:[VQC DEBUG] qp avg is29.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:38:106][139554][I]:[VQC DEBUG] qp avg is27.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:38:373][139554][I]:[VQC DEBUG] qp avg is29.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:38:437][141192][W]:(video_receive_stream.cc:709): No decodable frame in 1000 ms, decode gap = 11796166, requesting keyframe.
+[06/25/23 13:45:38:515][139511][A]:(00000448): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:38:515][139511][A]:(00000449):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:38:516][139511][A]:(00000450): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:38:516][139511][A]:(00000451):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:38:516][139511][A]:(00000452): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x321eb3e70, void)
+[06/25/23 13:45:38:516][139511][I]:[tactics] rtt:7 lost frame rate:81 continus lost:0 jitter:52
+[06/25/23 13:45:38:639][139554][I]:[VQC DEBUG] qp avg is31.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:38:715][139511][A]:(00000453): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x310d7dc00, userId:627707058, track:0x321eb3e70, state:3, reason:1, elapsed:128333)
+[06/25/23 13:45:38:904][139554][I]:[VQC DEBUG] qp avg is29.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:39:174][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:39:427][141192][W]:(video_receive_stream.cc:709): No decodable frame in 1000 ms, decode gap = 11797155, requesting keyframe.
+[06/25/23 13:45:39:438][139554][I]:[VQC DEBUG] qp avg is27.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:39:707][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:39:903][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:39:974][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:40:184][139511][I]:create session builder 0x139151200
+[06/25/23 13:45:40:184][139511][I]:[8642597500571493530|remote:103.******.154:8130] destroy session 0x1388cc400
+[06/25/23 13:45:40:184][139511][I]:[8642597500571493530|remote:103.******.154:8130] start last ack, duration: 2000 ms
+[06/25/23 13:45:40:184][139511][I]:destroy session builder 0x1368c0a00
+[06/25/23 13:45:40:184][139511][I]:[8642597500571493530|remote:103.******.154:8130] destroy connection 0x1388cbe00
+[06/25/23 13:45:40:184][139511][I]:[8642597500571493530|remote:103.******.154:8130] destroy path 0x13880b000
+[06/25/23 13:45:40:186][139511][I]:**CALL STATS: duration 2m7s cpu app/total 20.23/94.97 battery 100 tx/rx: 491/67 kbps 7.435M/449.128K bytes
+[06/25/23 13:45:40:199][139511][I]:create dangling client connection 0x30ab5a200
+[06/25/23 13:45:40:199][139511][I]:[remote:45.******.67:8130] start 0th connect, send client hello 10748789|syn, early data: 0, tags: SNI :34352d34332d...(25), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:fa110cc04c5f...(32), CID: 3113301941497764400
+[06/25/23 13:45:40:208][139527][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 342
+[06/25/23 13:45:40:208][139527][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 32
+[06/25/23 13:45:40:209][139511][I]:[remote:45.******.67:8130] receive server hello piece id: 0, 1/1, complete
+[06/25/23 13:45:40:210][139511][I]:[TM]: Evaluate cert chain size 3
+[06/25/23 13:45:40:210][139511][I]:[TM]: Add cert to cert store
+[06/25/23 13:45:40:210][139511][I]:[TM]: Add root certs to cert store
+[06/25/23 13:45:40:210][139511][I]:[TM]: Begin verify leaf cert
+[06/25/23 13:45:40:211][139511][I]:[TM]: End verify leaf cert, ret succ
+[06/25/23 13:45:40:211][139511][I]:[remote:45.******.67:8130] current in 0th connect, send client response 10748789|ack:6898391, early data: 0, tags: , CID: 3113301941497764400
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] set loss detection type: AdaptiveSequence
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] create path 0x13994d400, self initial seq: 10748790, peer initial seq: 6898392, local public address: 0, initial rtt: 12ms, version: Unknown, forged protocol: 0, connection_id: 3113301941497764400, path_id: null, cc: BBRv1, pacing: true
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] [3113301941497764400|remote:45.******.67:8130] 11797940 switch best path to [3113301941497764400|remote:45.******.67:8130] , predict transfer time: 12ms, rtt : 12ms, loss 0
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] create connection 0x13994ce00, self initial seq: 10748790, peer initial seq: 6898392, initial rtt: 12ms, version: Unknown, connection_id: 3113301941497764400, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/25/23 13:45:40:211][139511][I]:[3113301941497764400|remote:45.******.67:8130] create session 0x13994f400
+[06/25/23 13:45:40:211][139511][I]:[rs] link aut to 45.******.67:8130 connected
+[06/25/23 13:45:40:211][139511][I]:RawDataList has been sent && clear by 1 transportor, totoal buffer: 1
+[06/25/23 13:45:40:211][139511][I]:destroy dangling client connection 0x30ab5a200
+[06/25/23 13:45:40:245][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:40:438][141192][W]:(video_receive_stream.cc:709): No decodable frame in 1000 ms, decode gap = 11798167, requesting keyframe.
+[06/25/23 13:45:40:508][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:40:515][139511][A]:(00000454): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:40:515][139511][A]:(00000455):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:40:515][139511][A]:(00000456): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:40:516][139511][A]:(00000457):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:40:516][139511][A]:(00000458): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x321eb3e70, void)
+[06/25/23 13:45:40:516][139511][I]:[tactics] rtt:13 lost frame rate:100 continus lost:0 jitter:3
+[06/25/23 13:45:40:715][139511][A]:(00000459): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x310d7dc00, userId:627707058, track:0x321eb3e70, state:2, reason:2, elapsed:130332)
+[06/25/23 13:45:40:715][139511][I]:[xla] first remote audio frame uid:627707058, first:1, valid:1, mute:0, stage:(launch:26, joined:144, recved:127272, decoded:130332)
+[06/25/23 13:45:40:775][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:41:46][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:41:304][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:41:439][141192][W]:(video_receive_stream.cc:709): No decodable frame in 1000 ms, decode gap = 11799168, requesting keyframe.
+[06/25/23 13:45:41:570][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:41:837][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:42:103][139554][I]:[VQC DEBUG] qp avg is28.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:42:315][139511][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 92, total_frames 0, jitterbuffer_droped 0, idr_cnt 1
+[06/25/23 13:45:42:369][139554][I]:[VQC DEBUG] qp avg is27.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:42:423][139511][I]:[VSM]: no publish stat message received from peer, postpone report first frame drawn event
+[06/25/23 13:45:42:428][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11800157. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 
+[06/25/23 13:45:42:514][139511][I]:On received VIDEO_FEEDBACK_INTRA_REQUEST uid 0.
+[06/25/23 13:45:42:514][139511][I]:On received intra request stream_type 0, isQuickIntraRequest 0
+[06/25/23 13:45:42:515][139511][A]:(00000460): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:42:515][139511][A]:(00000461):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:42:515][139511][A]:(00000462): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:42:515][139511][A]:(00000463):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:42:515][139511][I]:[tactics] rtt:13 lost frame rate:100 continus lost:0 jitter:3
+[06/25/23 13:45:42:575][139554][E]:(parser_h264.cc:3111): Idr miss, internal frn wrap around, reset. prevfrn (76)cfrn (0)maxfrn (32768)
+[06/25/23 13:45:42:575][139554][I]:key frame codecType =3, frame_num = 1966 , frame_type = 3 , width = 640 , heght = 360 
+
+[06/25/23 13:45:42:636][139554][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:42:903][139554][I]:[VQC DEBUG] qp avg is30.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:42:968][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:43:169][139554][I]:[VQC DEBUG] qp avg is31.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:43:436][139554][I]:[VQC DEBUG] qp avg is30.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:43:440][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11801158. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 
+[06/25/23 13:45:43:515][139511][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 0, inter_var 0, total_frames 4, jitterbuffer_droped 0, idr_cnt 0
+[06/25/23 13:45:43:703][139554][I]:[VQC DEBUG] qp avg is30.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:43:970][139554][I]:[VQC DEBUG] qp avg is29.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:44:236][139554][I]:[VQC DEBUG] qp avg is29.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:44:441][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11802159. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 
+[06/25/23 13:45:44:502][139554][I]:[VQC DEBUG] qp avg is28.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:44:515][139511][A]:(00000464): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:44:515][139511][A]:(00000465):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:44:515][139511][A]:(00000466): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:44:515][139511][A]:(00000467):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:44:515][139511][I]:[tactics] rtt:13 lost frame rate:100 continus lost:0 jitter:3
+[06/25/23 13:45:44:769][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:45:39][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:45:303][139554][I]:[VQC DEBUG] qp avg is27.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:45:326][139511][I]:on bill stats downstream peer id 627707058 state 0 width 0 height 0 framerate 0
+[06/25/23 13:45:45:326][139511][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/25/23 13:45:45:442][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11803160. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 
+[06/25/23 13:45:45:451][139553][I]:(receive_statistics_proxy.cc:556): Bad call (any) start: 11803180
+[06/25/23 13:45:45:451][139553][I]:(receive_statistics_proxy.cc:562): Bad call (fps) start: 11803180
+[06/25/23 13:45:45:569][139554][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:45:835][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:46:33][139548][I]:[Extension]: BeautyEngine process avg time:0
+[06/25/23 13:45:46:102][139554][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:46:368][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:46:443][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11804161. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 
+[06/25/23 13:45:46:515][139511][A]:(00000468): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:46:515][139511][A]:(00000469):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: spatial_audio_io_agora_remote_user_playback)
+[06/25/23 13:45:46:515][139511][A]:(00000470): RemoteAudioTrackImpl::getAudioFilter(this:0x321eb3e70, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:46:515][139511][A]:(00000471):   IAudioFilterComposite::getAudioFilter(this:0x32755b490, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/25/23 13:45:46:515][139511][I]:[tactics] rtt:13 lost frame rate:100 continus lost:0 jitter:3
+[06/25/23 13:45:46:636][139554][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:46:902][139554][I]:[VQC DEBUG] qp avg is26.500000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:47:100][139514][C]:[xdump]: ANR detected:
+[06/25/23 13:45:47:100][139514][C]:[xdump]:   AgCallback(154631) not response in 9585 ms, task location channel_proxy_handler.cpp:1763
+[06/25/23 13:45:47:100][139514][W]:[xdump]: handle thread hang event
+[06/25/23 13:45:47:100][139514][W]:[xdump]: save thread hang context to file failed
+[06/25/23 13:45:47:169][139554][I]:[VQC DEBUG] qp avg is27.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:47:434][139554][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/25/23 13:45:47:444][141192][W]:(video_receive_stream.cc:730): No need to request keyframe. now_ms: 11805162. last_packet_ms: 11795320. last_keyframe_packet_ms: 11795185. 

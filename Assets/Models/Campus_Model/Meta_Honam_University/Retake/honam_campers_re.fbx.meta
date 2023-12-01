@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 0cd6eb0704be20b49a4a222ec95c2a02
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 73496389fa92f004b9c8ef00252448b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_building03_01
+    second: {fileID: 2100000, guid: a84c4c0e95f898e4c819d84a3c3f3ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_building03_02
+    second: {fileID: 2100000, guid: 6fb7b6a73610ecc4e9551d17ebbad798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_buildings
+    second: {fileID: 2100000, guid: c681e918c7a3d2846a190caa30654742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_buildings1
+    second: {fileID: 2100000, guid: faba7aef83344de4792bda488347811e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_buildings2
+    second: {fileID: 2100000, guid: 6d6f2de44ae7fa246b9fa9c1914bfd47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_01
+    second: {fileID: 2100000, guid: 372096d39f865e84588a88aabd3230bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_02
+    second: {fileID: 2100000, guid: 33d8fcc35e40c5c49920f86461cad228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_03
+    second: {fileID: 2100000, guid: 54170ec4893e54e4ebe038a794c58bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_04
+    second: {fileID: 2100000, guid: 0bd1d3e88cbd25e4e8a5de58aad37a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_06
+    second: {fileID: 2100000, guid: 20ec87b2ea7be0d4aaf8c1fc413c55f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_07
+    second: {fileID: 2100000, guid: 43f75486d714a414e908d001c7ace6d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_08
+    second: {fileID: 2100000, guid: 54eda4571e3f90849b2f9d2f5c3c4888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_09
+    second: {fileID: 2100000, guid: 2ee527f47ca54824fbbb7f4f3fccc278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_10
+    second: {fileID: 2100000, guid: 4a636de4bb132c04c8dca51791b07d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_campersgate_12
+    second: {fileID: 2100000, guid: 8f908b1d5885cf24c975c5d44d182320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_crane_01
+    second: {fileID: 2100000, guid: 37893d24a745d6f4ca48e7c104741e63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_crane_02
+    second: {fileID: 2100000, guid: 916c1e54304ead243bec002e50f092be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_crane_03
+    second: {fileID: 2100000, guid: 5e53b676dd743d841b8a2a10d4d9c08a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_excavator_01
+    second: {fileID: 2100000, guid: bdb4037df57ef554796e59e5d82e09c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_excavator_02
+    second: {fileID: 2100000, guid: b19eb6b159e4d03479a2ab8360750b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_excavator_03
+    second: {fileID: 2100000, guid: d204f2c5ce1aa564caa21dca0c9b1df1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_excavator_04
+    second: {fileID: 2100000, guid: c08c15ced20543341b38726fd0ceab4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_excavator_05
+    second: {fileID: 2100000, guid: aef99daa5224fc94194773df783ca71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_express_roadbar
+    second: {fileID: 2100000, guid: a5106ea8d3359ce4c83ba74600b35400, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_fence
+    second: {fileID: 2100000, guid: 3aa2c1e57c7c5c146b95b6c95e1d9d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_froad
+    second: {fileID: 2100000, guid: 66e8bb06cf457654b858fe6a8ef2c40f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_greenway
+    second: {fileID: 2100000, guid: e77d03051c8832c43b9794bddeed4cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_mountain
+    second: {fileID: 2100000, guid: c3dae3bccf1e39744a907e2a75704e72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_river
+    second: {fileID: 2100000, guid: 463f18fa82427ae4ba98845325cd9d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_honam_roadbar
+    second: {fileID: 2100000, guid: a1237cf6767c3bf47a9ce914b66035d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_land
+    second: {fileID: 2100000, guid: 4a603c0b0d3326449a957d3d37bb3350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_land_col
+    second: {fileID: 2100000, guid: ddb81ca9e95c33f40a24bca3219310b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_01
+    second: {fileID: 2100000, guid: dc0ee9cd47167fd489bf2cbe159f9bda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_02
+    second: {fileID: 2100000, guid: 824a685863ff3cb41b56b6d53f9c2238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_03
+    second: {fileID: 2100000, guid: 1a999ca0abfd74043a7af981481d3114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_04
+    second: {fileID: 2100000, guid: b89952b2cade7224b8b8589ef77ab391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_05
+    second: {fileID: 2100000, guid: 54fbf0778fa35ca46b1b60243158e0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_06
+    second: {fileID: 2100000, guid: 6e97f64379c9336438121061d783393f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_07
+    second: {fileID: 2100000, guid: d45b9580701c8e742a56963c797e2d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_take_08
+    second: {fileID: 2100000, guid: 0b352cd0a6de19f4abde5cd8d1b0045a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_01
+    second: {fileID: 2100000, guid: c219b4b02d973ca4386e8c176954c211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_02
+    second: {fileID: 2100000, guid: cacb998a6951f8c4d82907d1e06ad056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_03
+    second: {fileID: 2100000, guid: 71e31e10e1c16b24e932275da29cc111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_04
+    second: {fileID: 2100000, guid: e273859184b1f934680060df14f8477e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_05
+    second: {fileID: 2100000, guid: df9a995a549aed54f9201eb896614791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_towercrane_06
+    second: {fileID: 2100000, guid: 6f871e98a4c223c46a49698afd4d5bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: bcd8164dd779d2f49aa5b7124f331d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_01
+    second: {fileID: 2100000, guid: 5b5d0175f2b560548aa35d189b40b073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_02
+    second: {fileID: 2100000, guid: 13343c2002afdd3468714b916574fc21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_03
+    second: {fileID: 2100000, guid: 0f51d5eeb997e17468aa26a8ece36c52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_04
+    second: {fileID: 2100000, guid: f694bd413207908439355b5190fc19ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_05
+    second: {fileID: 2100000, guid: 1dd573e8969f7874992195b1967d441f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_06
+    second: {fileID: 2100000, guid: cb4bca044ce18cd46b7ceb125e2f9c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_07
+    second: {fileID: 2100000, guid: dc400164646c2074e9fb8d5211b65bdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toryP_M_toryP_08
+    second: {fileID: 2100000, guid: 54746c628e4b65446b7d458b33b773e7, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: campers_sign_B
+    second: {fileID: 2800000, guid: 056c236b0bff07940b3e8c928f72b36f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: campers_sign_c
+    second: {fileID: 2800000, guid: 8bb1e9d70818bfa489814232a8d52045, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

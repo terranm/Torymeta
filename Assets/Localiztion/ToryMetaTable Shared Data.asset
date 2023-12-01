@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ToryMetaTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ToryMetaTable
+  m_TableCollectionNameGuidString: 004030b62e92243979f5f6c64394e93a
+  m_Entries:
+  - m_Id: 61445496832
+    m_Key: NativeManager_ModalDescript_Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079744
+    m_Key: NativeManager_ModalDescript_Mandate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079745
+    m_Key: NativeManager_ModalDescript_Silence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079746
+    m_Key: NativeManager_ModalDescript_Warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079747
+    m_Key: NativeManager_ModalDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079748
+    m_Key: NativeManager_ModalCancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079749
+    m_Key: NativeManager_ChatPanelty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61458079750
+    m_Key: NativeManager_ModalInvite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274048
+    m_Key: NativeManager_ModalLeave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274049
+    m_Key: NativeManager_ModalChatJoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274050
+    m_Key: NativeManager_ModalNetworkTimeOut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274051
+    m_Key: ServerManager_ChatChatRoomKick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274052
+    m_Key: ServerManager_AlertChatRoomKick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274053
+    m_Key: ServerManager_AlertChatRoomFriendListNull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274054
+    m_Key: ServerManager_AlertChatRoomCreateDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274055
+    m_Key: ServerManager_AlertChatRoomCreateFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274056
+    m_Key: ServerManager_AlertChatRoomJoinFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274057
+    m_Key: ServerManager_AlertDisconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274058
+    m_Key: DownloadManager_CAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274059
+    m_Key: DownloadManager_HONAU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274060
+    m_Key: DownloadManager_SMOONU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274061
+    m_Key: DownloadManager_KKU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274062
+    m_Key: DownloadManager_seminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274063
+    m_Key: DownloadManager_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274064
+    m_Key: LobbySceneUIController_ChatPenaltyWarningKick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274065
+    m_Key: LobbySceneUIController_ChatPenaltyWarningCnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274066
+    m_Key: LobbySceneUIController_ChatPenaltySilence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274067
+    m_Key: LobbySceneUIController_ChatLounge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274068
+    m_Key: LobbySceneUIController_ChatPenaltySilenceDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274069
+    m_Key: NetworkedEntityFactory_ChatMandateChange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61462274070
+    m_Key: ChatLoungeController_AlertChatJoinFail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27748247527424
+    m_Key: ButtonClickEvent_SeminarExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830576175702016
+    m_Key: ButtonClickEvent_SeminarProgressExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830854300000256
+    m_Key: ButtonClickEvent_WorldExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830912202366976
+    m_Key: ButtonClickEvent_DefaultExit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836241539555328
+    m_Key: NativeManager_ChatPaneltyWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1836360225775616
+    m_Key: NativeManager_ChatPaneltySilence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848454845292544
+    m_Key: LobbySceneUIController_AlertChatPenaltyWarningKick
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2800624891222818835
+  references:
+    version: 2
+    RefIds:
+    - rid: 2800624891222818835
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1698215170306

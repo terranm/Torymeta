@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cube1
+  - Cube2
+  - Cube3
+  - View
+  - CinemachineTarget
+  - NetworkedFactory
+  - Launcher
+  - InputFieldChat
+  - PhotonChatGUI
+  - TouchZone
+  - Selected Channel Text
+  - Joystick
+  - PlayerFollowCamera
+  - Entity
+  - WorldTitle
+  - AvatarContainer
+  - Loading
+  - LoadingCamera
+  - LoungeTableChatPanel
+  - ServerManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Compass
+  - Water
+  - UI
+  - World
+  - Ground
+  - Entity
+  - Chair
+  - Player
+  - ToggleFullScreen
+  - ChattingLounge
+  - ToggleMediaPlayerMute
+  - Teleport
+  - ChatCreate
+  - ChatJoin
+  - ChatParticipantPanel
+  - MapOnly
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 2D
+    uniqueID: 1196421221
+    locked: 0

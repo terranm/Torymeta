@@ -1,0 +1,1004 @@
+[06/07/23 16:58:12:362][223285][I]:[RAT]: to be added audio filter position:2, filter:spatial_audio_io_agora_remote_user_playback
+[06/07/23 16:58:12:362][223285][A]:(00014982):   IAudioFilterComposite::addAudioFilter(this:0x288cffd90, filter: 0x2853985d0)
+[06/07/23 16:58:12:362][223285][A]:(00014983):   RemoteAudioTrackImpl::addAudioFilter(this:0x288cca7d0, filter: 0x2853985d0, position: 2)
+[06/07/23 16:58:12:362][223285][I]:[audio] RemoteAudioTrackImpl::attach: remote track attached
+
+[06/07/23 16:58:12:362][223285][I]:[ASM]: of uid -1353183189 ssrc 1615717533 track 0x288cca7d0 is created by local user.
+[06/07/23 16:58:12:362][223285][A]:(00014984): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:12:362][223285][A]:(00014985):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:12:362][223285][I]:[ASM]: configAudioMixerIfNeeded: 3, 0
+[06/07/23 16:58:12:362][223285][W]:(audio_mixer_impl.cc:85): SetMaxMixerNumber: SetMaxMixerNumber: 3, 3
+[06/07/23 16:58:12:362][223285][I]:audio options factoryname ==default: vector===5
+[06/07/23 16:58:12:362][223285][W]:[AOF]: enable preferred aec delay: 1
+[06/07/23 16:58:12:362][223285][I]:[AOF]: enable_aec: 1, enable_agc: 1, enable_ns: 1, enable_md: 0
+[06/07/23 16:58:12:362][223285][I]:[AOF]: mic selection: 0
+[06/07/23 16:58:12:362][223285][I]:(audio_transport_impl.cc:337): EnableMicSelection enable = 0.
+[06/07/23 16:58:12:362][223285][A]:(00014986): AudioStreamManager::createAndAttachRemoteAudioTrack->onUserAudioTrackSubscribed(this:0x3476d1600, userId:"2941784107", track:0x288cca7d0)
+[06/07/23 16:58:12:380][279326][A]:(00014987): RemoteAudioTrackImpl::onFirstFrameDecoded(this:0x288cca7d0, void)
+[06/07/23 16:58:12:380][279326][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:32000 dst_sample_rate_hz:8000
+[06/07/23 16:58:12:380][279326][I]:AEC_Config, filter type = 0, tail length = 48, route = 0, aggressive = 1
+[06/07/23 16:58:12:380][279326][I]:AEC_Config, nlp type = 0, size = 128, latency = 8
+[06/07/23 16:58:12:380][279326][I]:ains extension not enable
+[06/07/23 16:58:12:380][279326][I]:ains factory is nullptr
+[06/07/23 16:58:12:380][279326][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[06/07/23 16:58:12:380][279326][E]:(push_resampler.cc:103): InitializeIfNeeded: resampler is not using fixed ratio and src_sample_rate_hz:32000 dst_sample_rate_hz:44100
+[06/07/23 16:58:12:395][279325][E]:(parser_h264.cc:3111): Idr miss, internal frn wrap around, reset. prevfrn (101)cfrn (0)maxfrn (32768)
+[06/07/23 16:58:12:395][279325][I]:key frame codecType =3, frame_num = 104 , frame_type = 3 , width = 640 , heght = 360 
+
+[06/07/23 16:58:12:400][223285][I]:[[VMT]] set retrys: 8(streamId: 9, type: 3)
+[06/07/23 16:58:12:400][223285][I]:[PEER] onTracerFirstRemoteVideo uid 2941784107 codec 2 lapse 8297 firstFrameType 3
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter enable_hw_decoder : 
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter hardware_decoding : -1
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for enable_parser_reject
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for enable_hw_decoder
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for dec_mosreport
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for che.hardware_decoding
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[06/07/23 16:58:12:400][223285][I]:[VSM]: no TDS value found for packet_buffer_size
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for enable_vpr : true
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[06/07/23 16:58:12:400][223285][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[06/07/23 16:58:12:400][279575][I]:[BW]: BaseWorker (AgRemoteVCtrl) started: 0x320a08658
+[06/07/23 16:58:12:400][279576][I]:[BW]: BaseWorker (AgRemoteVData) started: 0x320a2bbb8
+[06/07/23 16:58:12:400][223285][I]:[VSM]: of uid -1353183189 ssrc 1424094631 track 0x28c27b200 is created.
+[06/07/23 16:58:12:400][223285][I]:[VSM]: add rw video observer proxy for track: 0x28c27b200, observer: 0x17fb51f70, uid: 2941784107
+[06/07/23 16:58:12:400][223285][A]:(00014988): VideoFrameRotator::setOutputRotation(this:0x320a72130, rotation:0)
+[06/07/23 16:58:12:400][223285][A]:(00014989): RemoteVideoTrackImpl::addVideoFilter(this:0x28c27b200, filter:0x320ac4940)
+[06/07/23 16:58:12:400][223285][I]:[RVT]: Add video filter 0x320ac4940
+[06/07/23 16:58:12:400][223285][I]:[VSM]: add video observer to track: 0x28c27b200, uid: 2941784107, observer: 0x17fb51f70, processMode: 1
+[06/07/23 16:58:12:400][223285][I]:[VSM]: set rw video observer 0x17fb51f70 to track: 0x28c27b200, uid: 2941784107
+[06/07/23 16:58:12:400][223285][A]:(00014990): RemoteVideoTrackImpl::addVideoFilter(this:0x28c27b200, filter:0x28e41eb40)
+[06/07/23 16:58:12:400][223285][I]:[RVT]: Add video filter 0x28e41eb40
+[06/07/23 16:58:12:400][223285][I]:vpr init! config: method=0 init_num=1 max_num=3 frozen_ms_thres=200 frozen_rate_thres=5, vpr_adaptive_thres=50
+[06/07/23 16:58:12:400][223285][I]:Decoder use: swdec
+[06/07/23 16:58:12:400][223285][I]:(h264.cc:126): Creating H264DecoderImpl.
+[06/07/23 16:58:12:400][223285][I]:(h264_decoder_impl.cc:239): H264DecoderImpl
+[06/07/23 16:58:12:401][223285][I]:[VND]: Set cc type 3 for video receive stream
+
+[06/07/23 16:58:12:401][223285][I]:[VND]: no TDS value found for av_sync_max_fence
+[06/07/23 16:58:12:401][223285][I]:[VND]: no TDS value found for av_sync_pace_length_factor
+[06/07/23 16:58:12:401][223285][I]:[VND]: no TDS value found for av_sync_filter_length_
+[06/07/23 16:58:12:401][223285][I]:enable_reduced_delay 0
+[06/07/23 16:58:12:401][223285][I]:(video_receive_stream.cc:133): VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 107, payload_name: H264, codec_params: {}}], rtp: {remote_ssrc: 1424094631, local_ssrc: 823840, rtcp_mode: RtcpMode::kCompound, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: on, nack: {rtp_history_ms: 0}, ulpfec_payload_type: 117, red_type: 116}, extensions: [{uri: urn:ietf:params:draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: urn:webrtc:experiments:rtp-hdrext:abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: agora-video-flag, id: 13}, {uri: agora-dmfec-media-seq, id: 11}, {uri: agora-video-meta-data, id: 14}, {uri: video-ref-frame-number, id: 10}, {uri: agora-video-metadata-end-to-end-time, id: 18}, {uri: agora-video-Bframe-info, id: 6}]}, renderer: (renderer), render_delay_ms: 0, sync_group: agora_avsync_2941784107, target_delay_ms: 0}
+[06/07/23 16:58:12:401][223285][I]:enable_reduced_delay 0
+[06/07/23 16:58:12:401][223285][I]:[AV DEBUG] StreamSynchronization Construct: max_fence_:300, pace_factor_:3, filter_length:2
+[06/07/23 16:58:12:401][223285][I]:(call.cc:1360): UpdateAggregateNetworkState: aggregate_state=up
+[06/07/23 16:58:12:401][223285][I]:(send_side_congestion_controller.cc:581): SignalNetworkState Up
+[06/07/23 16:58:12:401][223285][I]:(video_smooth_render_frames.cc:32): SmoothRender Reset enable vpr=1
+[06/07/23 16:58:12:401][223285][A]:(00014991): VideoStreamManager::onRemoteVideoStateChanged->onUserVideoTrackStateChanged(this:0x28c7d5c00, userId:2941784107, track:0x28c27b200, state:1, reason:6, elapsed:8298)
+[06/07/23 16:58:12:401][279295][A]:(00014992): ChannelProxy::notifyRemoteVideoStateChanged->onRemoteVideoStateChanged(this:0x28e3f13b0, userId:"2941784107", state:1, reason:6)
+[06/07/23 16:58:12:401][223285][A]:(00014993): VideoStreamManager::createNewVideoTrackIfNeeded->onUserVideoTrackSubscribed(this:0x28c7d5c00, userId:"2941784107", VideoTrackInfo(ownerUid:2941784107, channelId:torymeta, streamType:0, codecType:2, encodedFrameOnly:0), remoteTrack:0x28c27b200)
+[06/07/23 16:58:12:401][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 602508370, sequence number: 31602, arrival time: 21696980
+[06/07/23 16:58:12:401][223285][I]:RemoteNetworkStatistic: update parameters retrans_detect_enable 0, use_sent_ts_enable 1
+[06/07/23 16:58:12:401][223285][I]:(rtp_video_stream_receiver.cc:986): Found out of band supplied codec parameters for payload type: 107
+[06/07/23 16:58:12:402][223285][A]:(00014994): MediaNodeFactoryImpl::createVideoRenderer(this:0x28af65dc0, void)
+[06/07/23 16:58:12:402][279319][I]:[VRW]: constructor
+[06/07/23 16:58:12:402][223285][A]:(00014995): RemoteVideoTrackImpl::addRenderer(this:0x28c27b200, videoRenderer:0x282684640)
+[06/07/23 16:58:12:402][279321][I]:[VRW]: constructor done
+[06/07/23 16:58:12:402][223285][A]:(00014996):   VideoFrameRotator::setOutputFormat(this:0x28e41e410, format:(width:640, height:360, fps:15, fixed:1))
+[06/07/23 16:58:12:402][223285][I]:[RVTM] add remote video track 0x28c27b200 for uid: 2941784107
+[06/07/23 16:58:12:449][223285][A]:(00014997): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioFrame(this:0x3476d1600, userId:2941784107, track: 0x288cca7d0, elapsed:8258)
+[06/07/23 16:58:12:449][223285][A]:(00014998): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:1, reason:6, elapsed:8258)
+[06/07/23 16:58:12:449][223285][A]:(00015000): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioDecoded(this:0x3476d1600, userId:2941784107,  elapsed:8277)
+[06/07/23 16:58:12:449][223285][A]:(00015001): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:2, reason:6, elapsed:8277)
+[06/07/23 16:58:12:449][279295][A]:(00014999): ChannelProxy::onFirstRemoteAudioFrame->onFirstRemoteAudioFrame(this:0x28e3f13b0, userId:"2941784107", elapsed:8258)
+[06/07/23 16:58:12:449][223285][I]:[ASM]: no publish stat message received from peer, postpone report first frame drawn event
+[06/07/23 16:58:12:449][279295][A]:(00015002): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:1, reason:6, elapsed:8258)
+[06/07/23 16:58:12:449][279295][A]:(00015003): ChannelProxy::onFirstRemoteAudioDecoded->onFirstRemoteAudioDecoded(this:0x28e3f13b0, userId:"2941784107", elapsed:8277)
+[06/07/23 16:58:12:449][279295][A]:(00015004): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:2, reason:6, elapsed:8277)
+[06/07/23 16:58:12:473][279322][I]:[VBC2]: create acc feedback uid: -1353183189
+[06/07/23 16:58:12:473][279322][I]:[AgoraCC2.0] vos 0 SetBitrates min 57200, max 449200, start 224600
+[06/07/23 16:58:12:473][279322][I]:[PACER] Active Pacer to false
+[06/07/23 16:58:12:499][279578][I]:(decoder_database.cc:143): Initializing decoder with payload type '107'.
+[06/07/23 16:58:12:499][279578][I]:(h264_decoder_impl.cc:324): FFmpeg swdec.
+[06/07/23 16:58:12:499][279578][I]:decoder init - sw: ffmpeg H264 Decoder
+[06/07/23 16:58:12:499][279578][I]:[VDW]: pre decoding color space info color_range 2, color_matrix 5
+[06/07/23 16:58:12:500][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:500][279295][A]:(00015005): ChannelProxy::onFirstRemoteVideoDecoded->onFirstRemoteVideoDecoded(this:0x28e3f13b0, uid:"2941784107", width:640, height:360, elapsed:8397)
+[06/07/23 16:58:12:500][279576][I]:[VNR] first frame ready to draw: Remote stream ts 602514490
+[06/07/23 16:58:12:500][223285][I]:[VSM]: no publish stat message received from peer, postpone report first frame drawn event
+[06/07/23 16:58:12:500][223285][A]:(00015006): VideoStreamManager::onRemoteVideoStateChanged->onUserVideoTrackStateChanged(this:0x28c7d5c00, userId:2941784107, track:0x28c27b200, state:2, reason:6, elapsed:8397)
+[06/07/23 16:58:12:500][279295][A]:(00015007): ChannelProxy::notifyRemoteVideoStateChanged->onRemoteVideoStateChanged(this:0x28e3f13b0, userId:"2941784107", state:2, reason:6)
+[06/07/23 16:58:12:501][279295][A]:(00015008): ChannelProxy::onVideoSizeChanged->onVideoSizeChanged(this:0x28e3f13b0, uid:"2941784107", width:640, height:360, rotation:0)
+[06/07/23 16:58:12:563][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:586][279325][I]:[VQC DEBUG] qp avg is29.750000, cur bit is:209, cur fps is 15.000000, width 640
+[06/07/23 16:58:12:620][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:650][223285][A]:(00015009): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:12:650][223285][A]:(00015010):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:12:650][223285][A]:(00015011): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:12:650][223285][A]:(00015012):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:12:650][223285][I]:[tactics] rtt:5 lost frame rate:0 continus lost:0 jitter:54
+[06/07/23 16:58:12:685][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:779][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:837][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:854][279325][I]:[VQC DEBUG] qp avg is32.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/07/23 16:58:12:900][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:12:966][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:29][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:96][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:120][279325][I]:[VQC DEBUG] qp avg is30.000000, cur bit is:209, cur fps is 15.000000, width 640
+[06/07/23 16:58:13:163][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:228][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:274][279322][I]:[VBC2]: create aut dl feedback uid: -1353183189
+[06/07/23 16:58:13:362][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:386][279325][I]:[VQC DEBUG] qp avg is28.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:13:422][279322][I]:[AgoraCC2.0]: vos 0 Init CWND 248
+[06/07/23 16:58:13:422][223285][W]:[diag] Receive debug enabled 1 from config service
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter enable_hw_decoder : 
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter hardware_decoding : -1
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter enable_minor_stream_intra_request : 0
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for enable_parser_reject
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for enable_hw_decoder
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for dec_mosreport
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for che.hardware_decoding
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[06/07/23 16:58:13:422][223285][I]:[VSM]: no TDS value found for packet_buffer_size
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for enable_vpr : true
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[06/07/23 16:58:13:422][223285][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[06/07/23 16:58:13:423][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:13:429][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:561][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:620][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:13:627][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:653][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:13:762][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:793][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:13:815][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:13:828][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:13:920][279325][I]:[VQC DEBUG] qp avg is27.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:13:963][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:14:15][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:29][279576][I]:onAgoraVideoFrame observer:0x17fb51f70, position:2, channelId:torymeta, uid:2941784107, frame(w:640, h:360, r:0)
+[06/07/23 16:58:14:94][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:157][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:163][279576][I]:... (ignore to avoid too many logs)
+[06/07/23 16:58:14:186][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:14:193][223285][I]:[tactics] update max peer down lost val : 0
+
+[06/07/23 16:58:14:297][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:449][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:14:453][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:14:554][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:650][223285][A]:(00015013): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:14:650][223285][A]:(00015014):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:14:650][223285][A]:(00015015): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:14:650][223285][A]:(00015016):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:14:650][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:54
+[06/07/23 16:58:14:695][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:719][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:14:803][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:896][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:957][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:14:986][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:15:96][223285][I]:on set parameters doc='{"rtc.enable_fec_rexfer":true}', ret=0
+[06/07/23 16:58:15:195][223285][I]:[xla] first remote video frame uid:2941784107, first:1, valid:0, mute:1, stage:(launch:34,vocs:67,vos:79,peerJoined:8076,viewSetupMs:0,firstPacket:41,firstDecodeFrame:99,decode:1,render:0,total:8397, report:0), userAccountReqElapse:0, firstFrameType:3, receivedKeyFrameNum:1, receivedNonKeyFrameNum:1, firstKeyFrameReceivedElapse:16, streamType:0
+[06/07/23 16:58:15:195][223285][I]:[xla] first remote audio frame uid:2941784107, first:1, valid:0, mute:0, stage:(launch:34, joined:180, recved:8257, decoded:8277)
+[06/07/23 16:58:15:253][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:15:520][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:15:785][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:16:52][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:16:250][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 88, total_frames 0, jitterbuffer_droped 0, idr_cnt 1
+[06/07/23 16:58:16:318][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:16:586][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:16:650][223285][A]:(00015017): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:16:650][223285][A]:(00015018):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:16:650][223285][A]:(00015019): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:16:650][223285][A]:(00015020):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:16:650][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:42
+[06/07/23 16:58:16:852][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:17:120][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:17:248][279087][I]:VAdapt(0x28e3f9aa0[REG]) in:181(640x480) out:181(640x360) cropped:640x360 scaled:1 changes:0 ts:21701827interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:17:386][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:17:516][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:17:582][223319][I]:VAdapt(0x288420290frame) in:186(640x360) out:181(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124697582interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:17:653][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:17:918][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:18:187][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:18:449][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:18:449][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 72, inter_var 164, total_frames 1, jitterbuffer_droped 0, idr_cnt 1
+[06/07/23 16:58:18:449][223285][E]:VStream error: node Rxjitterbuffer, err 7 frequency 1
+[06/07/23 16:58:18:452][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:18:717][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:18:849][223285][A]:(00015021): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:18:849][223285][A]:(00015022):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:18:849][223285][A]:(00015023): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:18:849][223285][A]:(00015024):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:18:849][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:42
+[06/07/23 16:58:18:984][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:19:252][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:19:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:58:19:283][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:58:19:519][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:19:785][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:20:51][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:20:317][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:20:581][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:20:584][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:20:849][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:20:850][223285][A]:(00015025): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:20:850][223285][A]:(00015026):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:20:850][223285][A]:(00015027): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:20:850][223285][A]:(00015028):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:20:850][223285][I]:[tactics] rtt:16 lost frame rate:1 continus lost:0 jitter:67
+[06/07/23 16:58:21:117][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:21:383][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:21:650][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:21:917][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:22:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 1800 signal level: far_in = 53
+[06/07/23 16:58:22:184][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:22:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 1800 signal level: near_in = 73, near_out = 54
+[06/07/23 16:58:22:287][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 30, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:22:404][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 603408100, sequence number: 32084, arrival time: 21706982
+[06/07/23 16:58:22:450][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:22:717][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:22:850][223285][A]:(00015029): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:22:850][223285][A]:(00015030):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:22:850][223285][A]:(00015031): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:22:850][223285][A]:(00015032):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:22:850][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:49
+[06/07/23 16:58:22:981][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:23:250][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:23:515][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:23:646][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:23:782][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:24:50][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:24:125][279305][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 185
+[06/07/23 16:58:24:125][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 69
+[06/07/23 16:58:24:324][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:24:450][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:24:450][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 27, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:24:584][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:24:850][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:25:50][223285][A]:(00015033): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:25:50][223285][A]:(00015034):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:25:50][223285][A]:(00015035): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:25:50][223285][A]:(00015036):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:25:50][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:25:117][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:25:383][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:25:648][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:25:915][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:26:183][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:26:449][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:26:711][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:26:715][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:26:983][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:27:248][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:27:249][223285][A]:(00015037): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:27:249][223285][A]:(00015038):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:27:249][223285][A]:(00015039): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:27:249][223285][A]:(00015040):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:27:249][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:27:515][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:27:781][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:28:47][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:28:287][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 36, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:28:314][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:28:582][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:28:847][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:29:113][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:29:243][279181][I]:VAdapt(0x28e3f9aa0[REG]) in:361(640x480) out:361(640x360) cropped:640x360 scaled:1 changes:0 ts:21713822interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:29:250][223285][A]:(00015041): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:29:250][223285][A]:(00015042):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:29:250][223285][A]:(00015043): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:29:250][223285][A]:(00015044):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:29:250][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:29:383][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:29:577][223319][I]:VAdapt(0x288420290frame) in:366(640x360) out:361(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124709576interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:29:647][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:29:776][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:29:914][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:30:179][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:30:447][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:30:450][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:30:450][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 25, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:30:713][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:30:980][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:31:246][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:31:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:58:31:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:58:31:449][223285][A]:(00015045): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:31:449][223285][A]:(00015046):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:31:449][223285][A]:(00015047): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:31:449][223285][A]:(00015048):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:31:449][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:31:512][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:31:779][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:32:46][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:32:312][279325][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:32:408][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 604307650, sequence number: 32589, arrival time: 21716986
+[06/07/23 16:58:32:580][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:32:842][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:32:847][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:33:110][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:33:378][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:33:449][223285][A]:(00015049): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:33:449][223285][A]:(00015050):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:33:449][223285][A]:(00015051): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:33:449][223285][A]:(00015052):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:33:449][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:33:644][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:33:912][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:34:125][279305][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 211
+[06/07/23 16:58:34:125][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 40
+[06/07/23 16:58:34:179][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:34:345][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 27, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:34:445][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:34:711][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:34:978][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:35:243][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:35:449][223285][A]:(00015053): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:35:449][223285][A]:(00015054):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:35:449][223285][A]:(00015055): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:35:449][223285][A]:(00015056):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:35:449][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:35:510][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:35:779][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:35:908][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:36:43][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:36:310][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:36:577][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:36:650][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:36:650][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 15, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:36:844][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:37:109][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:37:376][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:37:449][223285][A]:(00015057): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:37:449][223285][A]:(00015058):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:37:449][223285][A]:(00015059): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:37:449][223285][A]:(00015060):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:37:449][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:37:644][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:37:909][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:38:104][223285][I]:**CALL STATS: duration 31s cpu app/total 22.49/74.6 battery 100 tx/rx: 502/502 kbps 1.981M/1.455M bytes
+[06/07/23 16:58:38:177][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:38:444][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:38:709][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:38:973][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:38:977][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:39:243][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:39:449][223285][A]:(00015061): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:39:449][223285][A]:(00015062):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:39:449][223285][A]:(00015063): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:39:449][223285][A]:(00015064):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:39:449][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:39:510][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:39:776][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:40:43][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:40:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 3600 signal level: far_in = 54
+[06/07/23 16:58:40:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 3600 signal level: near_in = 72, near_out = 55
+[06/07/23 16:58:40:308][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:40:417][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 39, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:40:574][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:40:841][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:41:108][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:41:239][279087][I]:VAdapt(0x28e3f9aa0[REG]) in:541(640x480) out:541(640x360) cropped:640x360 scaled:1 changes:0 ts:21725817interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:41:375][279325][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:41:449][223285][A]:(00015065): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:41:449][223285][A]:(00015066):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:41:449][223285][A]:(00015067): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:41:449][223285][A]:(00015068):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:41:450][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:41:572][223319][I]:VAdapt(0x288420290frame) in:546(640x360) out:541(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124721572interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:41:642][279325][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:41:909][279325][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:42:38][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:42:176][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:42:442][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:42:456][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 605213320, sequence number: 33091, arrival time: 21727035
+[06/07/23 16:58:42:708][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:42:849][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:42:849][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 12, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:42:976][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:43:18][223285][I]:[RS]: **report stats: seq: 89, report list size 0, tx/rx: 31726/4272, cache size: 0
+[06/07/23 16:58:43:240][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:43:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:58:43:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:58:43:449][223285][A]:(00015069): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:43:449][223285][A]:(00015070):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:43:449][223285][A]:(00015071): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:43:449][223285][A]:(00015072):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:43:449][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:43:507][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:43:774][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:44:41][279325][I]:[VQC DEBUG] qp avg is26.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:44:126][279305][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 196
+[06/07/23 16:58:44:127][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 31
+[06/07/23 16:58:44:306][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:44:574][279325][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:44:841][279325][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:45:104][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:45:107][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:45:373][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:45:450][223285][A]:(00015073): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:45:450][223285][A]:(00015074):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:45:450][223285][A]:(00015075): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:45:450][223285][A]:(00015076):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:45:450][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:45:640][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:45:907][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:46:175][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:46:419][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 22, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:46:439][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:46:706][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:46:972][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:47:239][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:47:506][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:47:649][223285][A]:(00015077): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:47:649][223285][A]:(00015078):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:47:649][223285][A]:(00015079): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:47:649][223285][A]:(00015080):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:47:649][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:47:772][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:48:42][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:48:169][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:48:305][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:48:573][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:48:837][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:48:850][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:48:850][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 12, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:49:103][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:49:372][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:49:639][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:49:649][223285][A]:(00015081): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:49:649][223285][A]:(00015082):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:49:649][223285][A]:(00015083): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:49:649][223285][A]:(00015084):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:49:649][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:49:903][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:50:172][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:50:437][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:50:706][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:50:972][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:51:234][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:51:237][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:51:505][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:51:650][223285][A]:(00015085): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:51:650][223285][A]:(00015086):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:51:650][223285][A]:(00015087): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:51:650][223285][A]:(00015088):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:51:650][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:51:770][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:52:39][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:52:303][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:52:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 27, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:52:460][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 606112960, sequence number: 33582, arrival time: 21737039
+[06/07/23 16:58:52:570][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:52:837][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:53:106][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:53:233][279180][I]:VAdapt(0x28e3f9aa0[REG]) in:721(640x480) out:721(640x360) cropped:640x360 scaled:1 changes:0 ts:21737812interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:53:369][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:53:567][223319][I]:VAdapt(0x288420290frame) in:726(640x360) out:721(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124733567interv:66666666 decimator:15|15.00|15
+[06/07/23 16:58:53:637][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:53:849][223285][A]:(00015089): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:53:849][223285][A]:(00015090):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:53:849][223285][A]:(00015091): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:53:849][223285][A]:(00015092):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:53:849][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:53:904][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:54:126][279305][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 289
+[06/07/23 16:58:54:126][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 172
+[06/07/23 16:58:54:171][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:54:299][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:54:437][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:54:703][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:54:850][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:58:54:850][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 10, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:54:971][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:55:237][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:55:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:58:55:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:58:55:503][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:55:769][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:55:850][223285][A]:(00015093): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:55:850][223285][A]:(00015094):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:55:850][223285][A]:(00015095): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:55:850][223285][A]:(00015096):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:55:850][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:56:36][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:56:302][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:56:569][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:56:835][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:57:103][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:57:365][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:58:57:369][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:57:634][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:57:849][223285][A]:(00015097): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:57:850][223285][A]:(00015098):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:58:57:850][223285][A]:(00015099): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:57:850][223285][A]:(00015100):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:58:57:850][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:58:57:902][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:58:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 5400 signal level: far_in = 59
+[06/07/23 16:58:58:169][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:58:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 5400 signal level: near_in = 72, near_out = 61
+[06/07/23 16:58:58:435][279325][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:58:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 24, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:58:58:703][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:58:969][279325][I]:[VQC DEBUG] qp avg is26.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:59:234][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:59:501][279325][I]:[VQC DEBUG] qp avg is26.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:58:59:769][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:00:34][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:00:49][223285][A]:(00015101): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:00:49][223285][A]:(00015102):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:00:49][223285][A]:(00015103): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:00:49][223285][A]:(00015104):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:00:49][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:00:301][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:00:430][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:00:568][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:00:835][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:01:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:01:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 13, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:01:101][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:01:366][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:01:634][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:01:902][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:02:49][223285][A]:(00015105): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:02:49][223285][A]:(00015106):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:02:49][223285][A]:(00015107): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:02:49][223285][A]:(00015108):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:02:49][223285][I]:[tactics] rtt:17 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:02:168][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:02:433][279325][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:02:518][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 607018630, sequence number: 34085, arrival time: 21747097
+[06/07/23 16:59:02:702][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:02:967][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:03:233][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:03:496][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:03:500][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:03:766][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:04:33][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:04:49][223285][A]:(00015109): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:04:49][223285][A]:(00015110):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:04:49][223285][A]:(00015111): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:04:49][223285][A]:(00015112):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:04:49][223285][I]:[tactics] rtt:19 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:04:127][279305][I]:(audio_device_buffer.cc:574): [REC : 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 193
+[06/07/23 16:59:04:127][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10001msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44096, rate diff: 0%, level: 74
+[06/07/23 16:59:04:166][279325][I]:(video_stream_encoder.cc:1144): Number of frames: captured 880, dropped (due to encoder blocked) 0, interval_ms 60000
+[06/07/23 16:59:04:282][223285][I]:create session builder 0x28c281c00
+[06/07/23 16:59:04:282][223285][I]:[764006536835109376|remote:129.******.119:8130] destroy session 0x119fb6200
+[06/07/23 16:59:04:282][223285][I]:[764006536835109376|remote:129.******.119:8130] start last ack, duration: 2000 ms
+[06/07/23 16:59:04:282][223285][I]:destroy session builder 0x2938cbe00
+[06/07/23 16:59:04:282][223285][I]:[764006536835109376|remote:129.******.119:8130] destroy connection 0x31a03d200
+[06/07/23 16:59:04:282][223285][I]:[764006536835109376|remote:129.******.119:8130] destroy path 0x31a0ed600
+[06/07/23 16:59:04:282][223285][I]:create dangling client connection 0x12f55a600
+[06/07/23 16:59:04:283][223285][I]:[remote:103.******.170:8130] start 0th connect, send client hello 4388199|syn, early data: 0, tags: SNI :3130332d3635...(27), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:ed4ebf414f0f...(24), CID: 2356559277527404437
+[06/07/23 16:59:04:300][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:04:378][223285][I]:[remote:103.******.170:8130] receive server hello piece id: 0, 1/1, complete
+[06/07/23 16:59:04:378][223285][I]:[TM]: Evaluate cert chain size 3
+[06/07/23 16:59:04:378][223285][I]:[TM]: Add cert to cert store
+[06/07/23 16:59:04:378][223285][I]:[TM]: Add root certs to cert store
+[06/07/23 16:59:04:379][223285][I]:[TM]: Begin verify leaf cert
+[06/07/23 16:59:04:379][223285][I]:[TM]: End verify leaf cert, ret succ
+[06/07/23 16:59:04:379][223285][I]:[remote:103.******.170:8130] current in 0th connect, send client response 4388199|ack:4074723, early data: 0, tags: , CID: 2356559277527404437
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] set loss detection type: AdaptiveSequence
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] create path 0x28c2c8600, self initial seq: 4388200, peer initial seq: 4074724, local public address: 0, initial rtt: 96ms, version: Unknown, forged protocol: 0, connection_id: 2356559277527404437, path_id: null, cc: BBRv1, pacing: true
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] [2356559277527404437|remote:103.******.170:8130] 27543682 switch best path to [2356559277527404437|remote:103.******.170:8130] , predict transfer time: 96ms, rtt : 96ms, loss 0
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] create connection 0x12f66e200, self initial seq: 4388200, peer initial seq: 4074724, initial rtt: 96ms, version: Unknown, connection_id: 2356559277527404437, perspective: Perspective::kClient, multipath: false, reinjection strategy: kReinjectIfPossible, path scheduling: kDynamic
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] SetFromConfig max_packet_size:1280, mtu_discover_target:1450, initial_bandwidth_estimation:0 kbps, enable_connection_migration:true, 
+[06/07/23 16:59:04:379][223285][I]:[2356559277527404437|remote:103.******.170:8130] create session 0x2a09f6200
+[06/07/23 16:59:04:379][223285][I]:[rs] link aut to 103.******.170:8130 connected
+[06/07/23 16:59:04:379][223285][I]:destroy dangling client connection 0x12f55a600
+[06/07/23 16:59:04:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 21, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:04:566][279325][I]:[VQC DEBUG] qp avg is25.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:04:832][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:05:99][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:05:229][279180][I]:VAdapt(0x28e3f9aa0[REG]) in:901(640x480) out:901(640x360) cropped:640x360 scaled:1 changes:0 ts:21749808interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:05:366][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:05:562][223319][I]:VAdapt(0x288420290frame) in:906(640x360) out:901(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124745562interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:05:632][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:05:899][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:06:49][223285][A]:(00015113): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:06:49][223285][A]:(00015114):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:06:49][223285][A]:(00015115): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:06:49][223285][A]:(00015116):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:06:49][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:06:166][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:06:432][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:06:562][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:06:698][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:06:964][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:07:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:07:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 11, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:07:231][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:07:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:59:07:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:59:07:500][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:07:765][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:08:30][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:08:49][223285][A]:(00015117): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:08:49][223285][A]:(00015118):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:08:49][223285][A]:(00015119): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:08:49][223285][A]:(00015120):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:08:49][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:08:298][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:08:564][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:08:831][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:09:98][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:09:365][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:09:627][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:09:630][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:09:897][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:10:49][223285][A]:(00015121): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:10:49][223285][A]:(00015122):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:10:49][223285][A]:(00015123): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:10:49][223285][A]:(00015124):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:10:49][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:64
+[06/07/23 16:59:10:104][223285][I]:**CALL STATS: duration 1m3s cpu app/total 22.52/80.80 battery 100 tx/rx: 500/494 kbps 3.934M/3.381M bytes
+[06/07/23 16:59:10:165][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:10:430][279325][I]:[VQC DEBUG] qp avg is25.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:10:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 22, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:10:698][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:10:964][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:11:231][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:11:496][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:11:762][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:12:32][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:12:49][223285][A]:(00015125): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:12:49][223285][A]:(00015126):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:12:49][223285][A]:(00015127): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:12:49][223285][A]:(00015128):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:12:49][223285][A]:(00015129): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x288cca7d0, void)
+[06/07/23 16:59:12:49][223285][I]:[tactics] rtt:12 lost frame rate:6 continus lost:0 jitter:202
+[06/07/23 16:59:12:249][223285][A]:(00015130): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:3, reason:1, elapsed:67946)
+[06/07/23 16:59:12:249][279295][A]:(00015131): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:3, reason:1, elapsed:67946)
+[06/07/23 16:59:12:296][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:12:522][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 607918270, sequence number: 34589, arrival time: 21757100
+[06/07/23 16:59:12:563][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:12:692][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:12:829][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:13:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:13:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 30, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:13:95][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:13:363][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:13:630][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:13:895][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:14:49][223285][A]:(00015132): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:14:49][223285][A]:(00015133):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:14:49][223285][A]:(00015134): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:14:49][223285][A]:(00015135):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:14:49][223285][A]:(00015136): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x288cca7d0, void)
+[06/07/23 16:59:14:49][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:79
+[06/07/23 16:59:14:127][279305][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 228
+[06/07/23 16:59:14:127][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 189
+[06/07/23 16:59:14:165][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:14:249][223285][A]:(00015137): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:2, reason:2, elapsed:69946)
+[06/07/23 16:59:14:249][223285][I]:[xla] first remote audio frame uid:2941784107, first:0, valid:0, mute:0, stage:(launch:34, joined:180, recved:8257, decoded:69946)
+[06/07/23 16:59:14:252][279295][A]:(00015138): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:2, reason:2, elapsed:69946)
+[06/07/23 16:59:14:428][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:14:694][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:14:963][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:15:228][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:15:495][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:15:757][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:15:762][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:16:28][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:16:49][223285][A]:(00015139): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:16:49][223285][A]:(00015140):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:16:49][223285][A]:(00015141): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:16:49][223285][A]:(00015142):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:16:49][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:79
+[06/07/23 16:59:16:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 7200 signal level: far_in = 68
+[06/07/23 16:59:16:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 7200 signal level: near_in = 74, near_out = 71
+[06/07/23 16:59:16:296][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:16:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 28, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:16:560][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:16:828][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:17:93][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:17:104][223285][I]:[RS]: **report stats: seq: 130, report list size 0, tx/rx: 56915/6240, cache size: 0
+[06/07/23 16:59:17:223][279087][I]:VAdapt(0x28e3f9aa0[REG]) in:1081(640x480) out:1081(640x360) cropped:640x360 scaled:1 changes:0 ts:21761802interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:17:363][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:17:557][223319][I]:VAdapt(0x288420290frame) in:1086(640x360) out:1081(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124757557interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:17:627][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:17:893][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:18:49][223285][A]:(00015143): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:18:49][223285][A]:(00015144):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:18:49][223285][A]:(00015145): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:18:49][223285][A]:(00015146):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:18:49][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:79
+[06/07/23 16:59:18:161][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:18:427][279325][I]:[VQC DEBUG] qp avg is24.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:18:693][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:18:823][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:18:960][279325][I]:[VQC DEBUG] qp avg is24.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:19:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:19:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 10, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:19:228][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:19:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:59:19:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:59:19:495][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:19:760][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:20:27][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:20:49][223285][A]:(00015147): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:20:49][223285][A]:(00015148):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:20:49][223285][A]:(00015149): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:20:49][223285][A]:(00015150):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:20:49][223285][I]:[tactics] rtt:15 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:20:293][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:20:560][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:20:825][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:21:91][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:21:359][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:21:626][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:21:888][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:21:890][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:22:49][223285][A]:(00015151): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:22:49][223285][A]:(00015152):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:22:49][223285][A]:(00015153): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:22:49][223285][A]:(00015154):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:22:49][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:22:160][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:22:425][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:22:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 30, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:22:573][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 608823940, sequence number: 35091, arrival time: 21767151
+[06/07/23 16:59:22:723][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:22:959][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:23:226][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:23:492][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:23:759][279325][I]:[VQC DEBUG] qp avg is25.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:24:26][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:24:49][223285][A]:(00015155): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:24:49][223285][A]:(00015156):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:24:49][223285][A]:(00015157): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:24:49][223285][A]:(00015158):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:24:49][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:24:131][279305][I]:(audio_device_buffer.cc:574): [REC : 10003msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44087, rate diff: 0%, level: 195
+[06/07/23 16:59:24:131][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10003msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44087, rate diff: 0%, level: 200
+[06/07/23 16:59:24:292][279325][I]:[VQC DEBUG] qp avg is24.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:24:563][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:24:889][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:24:960][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:25:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:25:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 67, inter_var 46, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:25:145][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:25:422][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:25:828][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:26:30][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:26:49][223285][A]:(00015159): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:26:50][223285][A]:(00015160):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:26:50][223285][A]:(00015161): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:26:50][223285][A]:(00015162):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:26:50][223285][A]:(00015163): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x288cca7d0, void)
+[06/07/23 16:59:26:50][223285][I]:[tactics] rtt:12 lost frame rate:8 continus lost:0 jitter:185
+[06/07/23 16:59:26:226][279325][I]:[VQC DEBUG] qp avg is24.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:26:249][223285][A]:(00015164): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:3, reason:1, elapsed:81947)
+[06/07/23 16:59:26:249][279295][A]:(00015165): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:3, reason:1, elapsed:81947)
+[06/07/23 16:59:26:489][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:26:758][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:27:25][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:27:295][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:27:557][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:27:830][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:27:952][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:28:49][223285][A]:(00015166): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:28:49][223285][A]:(00015167):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:28:49][223285][A]:(00015168): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:28:49][223285][A]:(00015169):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:28:49][223285][A]:(00015170): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x288cca7d0, void)
+[06/07/23 16:59:28:49][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:149
+[06/07/23 16:59:28:90][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:28:249][223285][A]:(00015171): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x3476d1600, userId:2941784107, track:0x288cca7d0, state:2, reason:2, elapsed:83946)
+[06/07/23 16:59:28:249][223285][I]:[xla] first remote audio frame uid:2941784107, first:0, valid:0, mute:0, stage:(launch:34, joined:180, recved:8257, decoded:83946)
+[06/07/23 16:59:28:250][279295][A]:(00015172): ChannelProxy::onUserAudioTrackStateChanged->onRemoteAudioStateChanged(this:0x28e3f13b0, userId:"2941784107", state:2, reason:2, elapsed:83946)
+[06/07/23 16:59:28:357][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:28:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 67, inter_var 257, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:28:626][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:28:887][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:29:156][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:29:218][279087][I]:VAdapt(0x28e3f9aa0[REG]) in:1261(640x480) out:1261(640x360) cropped:640x360 scaled:1 changes:0 ts:21773797interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:29:422][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:29:553][223319][I]:VAdapt(0x288420290frame) in:1266(640x360) out:1261(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124769552interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:29:691][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:29:954][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:30:49][223285][A]:(00015173): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:30:49][223285][A]:(00015174):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:30:49][223285][A]:(00015175): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:30:49][223285][A]:(00015176):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:30:49][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:30:221][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:30:489][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:30:755][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:31:18][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:31:22][279325][I]:[VQC DEBUG] qp avg is25.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:31:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:31:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 65, inter_var 72, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:31:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:59:31:283][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:59:31:292][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:31:556][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:31:821][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:32:49][223285][A]:(00015177): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:32:49][223285][A]:(00015178):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:32:49][223285][A]:(00015179): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:32:49][223285][A]:(00015180):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:32:49][223285][I]:[tactics] rtt:11 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:32:87][279325][I]:[VQC DEBUG] qp avg is23.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:32:359][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:32:577][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 609723580, sequence number: 35591, arrival time: 21777156
+[06/07/23 16:59:32:621][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:32:887][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:33:157][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:33:423][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:33:686][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:33:955][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:34:83][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:34:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 9000 signal level: far_in = 68
+[06/07/23 16:59:34:129][279305][I]:(audio_device_buffer.cc:574): [REC : 9999msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44104, rate diff: 0%, level: 1167
+[06/07/23 16:59:34:130][279305][I]:(audio_device_buffer.cc:600): [PLAY: 9999msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44104, rate diff: 0%, level: 345
+[06/07/23 16:59:34:222][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:34:249][223285][A]:(00015181): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:34:249][223285][A]:(00015182):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:34:249][223285][A]:(00015183): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:34:249][223285][A]:(00015184):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:34:249][223285][I]:[tactics] rtt:16 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:34:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 9000 signal level: near_in = 72, near_out = 69
+[06/07/23 16:59:34:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 32, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:34:488][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:34:756][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:35:23][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:35:287][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:35:553][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:35:831][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:36:87][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:36:249][223285][A]:(00015185): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:36:249][223285][A]:(00015186):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:36:249][223285][A]:(00015187): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:36:249][223285][A]:(00015188):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:36:249][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:36:353][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:36:624][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:36:891][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:37:49][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:37:49][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 31, total_frames 1, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:37:163][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:37:174][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:37:421][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:37:686][279325][I]:[VQC DEBUG] qp avg is20.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:37:955][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:38:219][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:38:249][223285][A]:(00015189): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:38:249][223285][A]:(00015190):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:38:249][223285][A]:(00015191): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:38:249][223285][A]:(00015192):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:38:249][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:38:492][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:38:752][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:39:21][279325][I]:[VQC DEBUG] qp avg is23.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:39:286][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:39:556][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:39:820][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:40:84][279325][I]:[VQC DEBUG] qp avg is22.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:40:214][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:40:249][223285][A]:(00015193): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:40:249][223285][A]:(00015194):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:40:249][223285][A]:(00015195): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:40:249][223285][A]:(00015196):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:40:249][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:40:352][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:40:449][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 75, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:40:619][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:40:885][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:41:152][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:41:214][277444][I]:VAdapt(0x28e3f9aa0[REG]) in:1441(640x480) out:1441(640x360) cropped:640x360 scaled:1 changes:0 ts:21785793interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:41:417][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:41:548][223319][I]:VAdapt(0x288420290frame) in:1446(640x360) out:1441(640x360) cropped:640x360 scaled:1 changes:0 ts:1686124781547interv:66666666 decimator:15|15.00|15
+[06/07/23 16:59:41:684][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:41:949][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:42:104][223285][I]:**CALL STATS: duration 1m35s cpu app/total 25.62/98.75 battery 100 tx/rx: 484/496 kbps 5.886M/5.299M bytes
+[06/07/23 16:59:42:216][279325][I]:[VQC DEBUG] qp avg is22.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:42:248][223285][A]:(00015197): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:42:248][223285][A]:(00015198):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:42:248][223285][A]:(00015199): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:42:248][223285][A]:(00015200):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:42:248][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:42:484][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:42:583][223285][I]:(rtp_video_stream_receiver.cc:438): Packet received on SSRC: 1424094631 with payload type: 107, timestamp: 610623130, sequence number: 36090, arrival time: 21787162
+[06/07/23 16:59:42:749][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:43:17][279325][I]:[VQC DEBUG] qp avg is23.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:43:48][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:43:48][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 44, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:43:280][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:43:282][223285][I]:on bill stats downstream peer id -1353183189 state 0 width 640 height 360 framerate 15
+[06/07/23 16:59:43:282][223285][I]:[CONN-0]on bill stats upstream width 640 height 360 local flag 0
+[06/07/23 16:59:43:284][279325][I]:[VQC DEBUG] qp avg is23.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:43:549][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:43:815][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:44:83][279325][I]:[VQC DEBUG] qp avg is22.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:44:129][279305][I]:(audio_device_buffer.cc:574): [REC : 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 208
+[06/07/23 16:59:44:129][279305][I]:(audio_device_buffer.cc:600): [PLAY: 10000msec, 44kHz] callbacks: 1000, samples: 441000, rate: 44100, rate diff: 0%, level: 270
+[06/07/23 16:59:44:248][223285][A]:(00015201): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:44:248][223285][A]:(00015202):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:44:248][223285][A]:(00015203): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:44:248][223285][A]:(00015204):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:44:248][223285][I]:[tactics] rtt:12 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:44:350][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:44:616][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:44:881][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:45:147][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:45:414][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:45:682][279325][I]:[VQC DEBUG] qp avg is20.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:45:948][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:46:214][279325][I]:[VQC DEBUG] qp avg is22.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:46:248][223285][A]:(00015205): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:46:248][223285][A]:(00015206):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:46:248][223285][A]:(00015207): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:46:248][223285][A]:(00015208):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:46:248][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:46:345][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:46:448][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 47, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:46:480][279325][I]:[VQC DEBUG] qp avg is20.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:46:747][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:47:13][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:47:280][279325][I]:[VQC DEBUG] qp avg is19.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:47:546][279325][I]:[VQC DEBUG] qp avg is21.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:47:813][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:48:79][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:48:248][223285][A]:(00015209): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:48:248][223285][A]:(00015210):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:48:248][223285][A]:(00015211): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:48:248][223285][A]:(00015212):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:48:248][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:48:346][279325][I]:[VQC DEBUG] qp avg is20.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:48:612][279325][I]:[VQC DEBUG] qp avg is21.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:48:879][279325][I]:[VQC DEBUG] qp avg is21.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:49:48][223285][W]:Fluency RX count: loss_rate_after_arq_and_fec(0.000000 %), fec_rate 0.000000 %
+[06/07/23 16:59:49:48][223285][W]:Fluency RX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 34, total_frames 2, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:49:145][279325][I]:[VQC DEBUG] qp avg is20.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:49:410][223319][I]:[Extension]: BeautyEngine process avg time:0
+[06/07/23 16:59:49:412][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:49:679][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:49:945][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:50:213][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:50:248][223285][A]:(00015213): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:50:248][223285][A]:(00015214):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:50:248][223285][A]:(00015215): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:50:248][223285][A]:(00015216):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:50:248][223285][I]:[tactics] rtt:13 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:50:478][279325][I]:[VQC DEBUG] qp avg is20.250000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:50:745][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:51:12][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:51:278][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:51:545][279325][I]:[VQC DEBUG] qp avg is21.000000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:51:811][279325][I]:[VQC DEBUG] qp avg is20.500000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:52:36][223288][C]:[xdump]: ANR detected:
+[06/07/23 16:59:52:36][223288][C]:[xdump]:   AgCallback(672403) not response in 9922 ms, task location channel_proxy_handler.cpp:494
+[06/07/23 16:59:52:36][223288][W]:[xdump]: handle thread hang event
+[06/07/23 16:59:52:37][223288][W]:[xdump]: save thread hang context to file failed
+[06/07/23 16:59:52:78][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:52:100][279326][I]:[ATW]: Audio statistics - play count: playout count = 10800 signal level: far_in = 60
+[06/07/23 16:59:52:248][223285][A]:(00015217): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:52:248][223285][A]:(00015218):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: spatial_audio_io_agora_remote_user_playback)
+[06/07/23 16:59:52:248][223285][A]:(00015219): RemoteAudioTrackImpl::getAudioFilter(this:0x288cca7d0, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:52:248][223285][A]:(00015220):   IAudioFilterComposite::getAudioFilter(this:0x288cffd90, name: sound_position_io_agora_builtin_remote_user_playback)
+[06/07/23 16:59:52:248][223285][I]:[tactics] rtt:14 lost frame rate:0 continus lost:0 jitter:62
+[06/07/23 16:59:52:257][279330][I]:[ATW]: Audio statistics - rec count: record count = 10800 signal level: near_in = 73, near_out = 64
+[06/07/23 16:59:52:345][279325][I]:[VQC DEBUG] qp avg is20.750000, cur bit is:399, cur fps is 15.000000, width 640
+[06/07/23 16:59:52:448][223285][W]:Fluency TX abnormal: reason 0, total_time 0, drop 0, inter_mean 66, inter_var 25, total_frames 0, jitterbuffer_droped 0, idr_cnt 0
+[06/07/23 16:59:52:477][223319][I]:[Extension]: BeautyEngine process avg time:0
